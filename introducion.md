@@ -86,7 +86,7 @@ Se pueden definir clases como Usuario, Estudiante y Profesor, donde Estudiante y
 #Desarrollar cinco casos de uso con el formato
 adecuado:
 
-# Sing UP
+# Create Account
 Actores involucrados: Usuario y sistema
 Descripción breve: Permite a un nuevo usuario crear una cuenta en la plataforma.
 Flujo principal de eventos
