@@ -72,176 +72,117 @@ La abstracción en POO funciona igual: te da herramientas sencillas sin mostrar 
 
 #Requisitos iniciales del sistema
 
-Ejemplo: Sistema de Gestión de Biblioteca
-Supongamos que estamos diseñando un sistema para gestionar una biblioteca. Aquí hay cinco requisitos funcionales en términos de POO:
 
 ## Gestión de usuarios
 
+# User Registration 
 El sistema debe permitir registrar, editar y eliminar usuarios.
 
 Cada usuario tendrá atributos como nombre, ID, tipo (estudiante/profesor).
 
 Se pueden definir clases como Usuario, Estudiante y Profesor, donde Estudiante y Profesor hereden de Usuario.
 
-## Préstamo de libros
 
-Un usuario puede tomar prestado un libro si está disponible.
-
-Cada préstamo tendrá una fecha de inicio y una fecha de devolución esperada.
-
-Podría haber una clase Prestamo con atributos como usuario, libro, fecha_prestamo y fecha_devolucion.
-
-##  Devolución de libros
-
-El sistema debe permitir registrar la devolución de un libro.
-
-Si la devolución se hace tarde, se aplicará una multa según los días de retraso.
-
-Se puede manejar con un método en la clase Prestamo que calcule el retraso y aplique la multa.
-
-## Búsqueda de libros
-
-Los usuarios pueden buscar libros por título, autor o categoría.
-
-Cada libro tendrá atributos como título, autor, ISBN, estado (disponible/no disponible).
-
-Se puede definir una clase Libro con métodos para realizar la búsqueda.
-
-## Generación de reportes
-
-El sistema debe generar reportes de libros prestados, usuarios con multas, y historial de préstamos.
-
-Se puede implementar una clase Reporte con métodos que consulten datos de las clases Libro y Prestamo.
-
- 
- #Desarrollar cinco casos de uso con el formato
+#Desarrollar cinco casos de uso con el formato
 adecuado:
 
+# Sing UP
+Actores involucrados: Usuario y sistema
+Descripción breve: Permite a un nuevo usuario crear una cuenta en la plataforma.
+Flujo principal de eventos
+El usuario accede a la página de registro.
+El usuario ingresa su información personal (nombre, correo, contraseña).
+El sistema valida la información ingresada.
+El sistema crea una nueva cuenta y envía un correo de confirmación.
+El usuario recibe el correo y confirma su registro.
+Precondiciones: El usuario no debe tener una cuenta existente.
+Postcondiciones: El usuario tiene una cuenta activa en el sistema.
+
+
+
+# Login
+Actores involucrados: Usuario, Sistema
+Descripción breve: Permite a un usuario registrado acceder a su cuenta.
+Flujo principal de eventos:
+El usuario accede a la página de inicio de sesión.
+El usuario ingresa su correo y contraseña.
+El sistema valida las credenciales.
+El sistema redirige al usuario a su panel de control.
+Precondiciones: El usuario debe tener una cuenta registrada.
+Postcondiciones: El usuario está autenticado y tiene acceso a su cuenta.
+
+# Password recovery
+1️⃣ Ir a "Olvidé mi contraseña" en la pantalla de inicio de sesión.
+2️⃣ Ingresar correo o usuario para verificar la identidad.
+3️⃣ Recibir un código o enlace por correo o SMS.
+4️⃣ Ingresar el código o acceder al enlace de recuperación.
+5️⃣ Crear una nueva contraseña segura.
+6️⃣ Confirmar el cambio y recibir notificación.
+7️⃣ Iniciar sesión con la nueva contraseña.
+
+# Solicitar Turnos 
+1️⃣ Iniciar sesión en el sistema con usuario y contraseña.
+2️⃣ Seleccionar "Solicitar Turno" en el menú principal.
+3️⃣ Elegir especialidad y médico disponible.
+4️⃣ Seleccionar fecha y hora según la disponibilidad.
+5️⃣ Confirmar el turno y agregar observaciones si es necesario.
+6️⃣ Recibir confirmación del turno por correo o SMS.
+
+# Cierre de Sesion 
+1️⃣ Ir al menú de usuario (generalmente en la esquina superior).
+2️⃣ Seleccionar "Cerrar sesión" o "Salir".
+3️⃣ Confirmar la acción si el sistema lo solicita.
+4️⃣ Ser redirigido a la pantalla de inicio de sesión.
+
+
+
+#EJEMPLO : 
+## Ejemplo de Gestión de Turnos en un Centro de Salud
+1️⃣ Registro de Médicos y Especialidades
+El sistema almacena los datos de los médicos, incluyendo su especialidad, horario de atención y datos de contacto.
+
+El Dr. Juan Pérez es especialista en Cardiología y atiende de lunes a viernes de 9:00 a 14:00. Su contacto es 123-456789 y su correo electrónico es juan@salud.com.
+
+La Dra. Ana Gómez, especialista en Pediatría, atiende los martes y jueves de 10:00 a 16:00, con contacto 234-567890 y correo ana@salud.com.
+
+El Dr. Carlos Ruiz se especializa en Dermatología y atiende los lunes, miércoles y viernes de 8:00 a 12:00. Su contacto es 345-678901 y su correo carlos@salud.com.
+
+2️⃣ Registro de Pacientes
+El sistema también guarda la información de los pacientes.
+
+Por ejemplo, María López tiene el documento 12345678, nació el 15 de abril de 1985, su teléfono es 555-1234, y su correo electrónico es maria@gmail.com.
+
+Otro paciente, Pedro Ramírez, tiene el documento 87654321, nació el 22 de agosto de 1992, y sus datos de contacto son el teléfono 555-5678 y el correo pedro@gmail.com.
+
+3️⃣ Asignación de Turno
+María López necesita un turno con un especialista en Cardiología, por lo que solicita una cita con el Dr. Juan Pérez.
+
+El sistema verifica la disponibilidad del médico y agenda el turno para el 5 de abril de 2024 a las 10:30. El estado del turno queda "Confirmado".
+
+El motivo de la consulta es un chequeo de presión arterial, y en las observaciones se registra que la paciente tiene antecedentes de hipertensión.
+
+4️⃣ Cambio o Cancelación de Turno
+Si María decide cancelar su turno, el estado del mismo cambia a "Cancelado", y el sistema envía una notificación con la actualización.
+
+Por ejemplo, el mensaje de notificación podría ser:
+
+"Estimado/a María López, su turno con el Dr. Juan Pérez el 05/04/2024 a las 10:30 ha sido cancelado. Para reprogramar, comuníquese al 123-456789."
+
+📌 Resumen del Proceso
+Se registran los médicos con sus especialidades y horarios de atención.
+
+Se almacenan los datos de los pacientes con su historial de turnos.
+
+Se asignan turnos de acuerdo con la disponibilidad del profesional de salud.
+
+Los turnos pueden ser confirmados, cancelados o modificados según sea necesario.
+
+El sistema envía notificaciones a los pacientes cuando hay cambios en sus turnos.
+
  
- Caso de Uso: Registrar Usuario
- Actor(es): Bibliotecario
-📌 Descripción: Permite registrar un nuevo usuario en el sistema.
 
- Flujo Principal de Eventos:
-El bibliotecario accede al sistema.
 
-Selecciona la opción "Registrar Usuario".
-
-Ingresa los datos del usuario (nombre, ID, tipo de usuario).
-
-Confirma la información y guarda el registro.
-
-El sistema almacena al usuario en la base de datos.
-
-Se muestra un mensaje de confirmación.
-
-⚠️ Precondiciones:
-
-El bibliotecario debe estar autenticado en el sistema.
-
-✅ Postcondiciones:
-
-El nuevo usuario queda registrado en el sistema.
-
-2️ Caso de Uso: Buscar Libro
- Actor(es): Usuario (Estudiante/Profesor)
-📌 Descripción: Permite buscar un libro en la biblioteca por título, autor o categoría.
-
- Flujo Principal de Eventos:
-El usuario accede al sistema.
-
-Selecciona la opción "Buscar Libro".
-
-Introduce un criterio de búsqueda (título, autor, categoría).
-
-El sistema muestra una lista de libros coincidentes.
-
-El usuario puede seleccionar un libro para ver más detalles.
-
-⚠️ Precondiciones:
-
-El usuario debe estar registrado en el sistema.
-
-✅ Postcondiciones:
-
-Se muestra la lista de libros disponibles según la búsqueda.
-
-3️⃣ Caso de Uso: Prestar Libro
- Actor(es): Bibliotecario, Usuario
-📌 Descripción: Permite que un usuario tome prestado un libro si está disponible.
-
- Flujo Principal de Eventos:
-El usuario solicita un préstamo de libro.
-
-El bibliotecario verifica la disponibilidad del libro.
-
-Si el libro está disponible, el sistema registra el préstamo con la fecha de devolución esperada.
-
-El sistema marca el libro como "No Disponible".
-
-Se genera un recibo con los detalles del préstamo.
-
-⚠️ Precondiciones:
-
-El usuario debe estar registrado en el sistema.
-
-El libro debe estar disponible.
-
-✅ Postcondiciones:
-
-El libro queda registrado como prestado y no disponible.
-
-4️ Caso de Uso: Devolver Libro
- Actor(es): Bibliotecario, Usuario
-📌 Descripción: Registra la devolución de un libro y calcula si hay multa por retraso.
-
- Flujo Principal de Eventos:
-El usuario devuelve el libro al bibliotecario.
-
-El bibliotecario busca el préstamo en el sistema.
-
-El sistema verifica si la devolución es dentro del plazo.
-
-Si hay retraso, el sistema calcula la multa.
-
-El sistema actualiza el estado del libro a "Disponible".
-
-Si hay multa, se informa al usuario.
-
-Se genera un recibo de devolución.
-
-⚠️ Precondiciones:
-
-El libro debe haber sido prestado previamente.
-
-✅ Postcondiciones:
-
-El libro queda disponible para otros usuarios.
-
-Si hay multa, se registra en la cuenta del usuario.
-
-5️ Caso de Uso: Generar Reporte de Préstamos
- Actor(es): Bibliotecario
-📌 Descripción: Permite generar un informe con la lista de libros prestados y usuarios que tienen libros pendientes.
-
- Flujo Principal de Eventos:
-El bibliotecario accede al sistema.
-
-Selecciona la opción "Generar Reporte de Préstamos".
-
-El sistema consulta la base de datos y genera un listado de libros prestados.
-
-Se muestra el reporte en pantalla y se puede imprimir.
-
-⚠️ Precondiciones:
-
-El bibliotecario debe estar autenticado en el sistema.
-
-✅ Postcondiciones:
-
-Se genera un informe con el estado de los préstamos.
-
-# Tabla Sistema de Gestion de turnos 
+# Boceto inicial del diseño de clases!
 
 https://drive.google.com/file/d/1J3fUEufcSSQtmo6P_uzmzKNsp3pljCgJ/view?usp=sharing
 
