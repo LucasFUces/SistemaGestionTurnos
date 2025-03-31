@@ -1,8 +1,8 @@
-[Introduccion](#introduccion)
-[Fundamentos](#Fundamentos)
-[Requisitos Iniciales](#Requisitos)
-[Casos de Uso](#casos)
-[Boceto Inicial](#Boceto)
+-[Introduccion](#introduccion)
+-[Fundamentos](#Fundamentos)
+-[Requisitos Iniciales](#Requisitos)
+-[Casos de Uso](#casos)
+-[Boceto Inicial](#Boceto)
 
 # Introduccion (#Introduccion)
 
