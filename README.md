@@ -1,12 +1,12 @@
 # SistemaGestionTurnos
 
 
-## Lucas Ivan Fischer
-## Diseño Orientado a Obejtos 
+## Nombre : Lucas Ivan Fischer
+## Materia : Diseño Orientado a Obejtos 
 ## Tecnicatura en programacion 
 ## Profesor : Matias Velazquez
 ## Año : 2025
-## 152159
+## Matricula : 152159
 
 # Introduccion 
 
