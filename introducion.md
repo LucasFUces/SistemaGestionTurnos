@@ -191,7 +191,7 @@ El horario liberado queda disponible para otros pacientes.
 
 # Boceto inicial del diseño de clases
 
-[acceder al archivo](imagen.png)
+![acceder al archivo](imagen.png)
 
 
 
