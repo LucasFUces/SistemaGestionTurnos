@@ -1,56 +1,65 @@
 -[Introduccion](#introduccion)
+
 -[Fundamentos](#Fundamentos)
+
 -[Requisitos Iniciales](#Requisitos)
+
 -[Casos de Uso](#casos)
+
 -[Boceto Inicial](#Boceto)
 
 # Introduccion (#Introduccion)
 
-## ¿Que es la Programacion Orientada a Objetos?
+ - ¿Que es el Paradigma Orientado a Objetos?
 
-### La Programación Orientada a Objetos (POO) es un paradigma de programación basado en el concepto de objetos, que son entidades que combinan datos (atributos) y comportamientos (métodos). Este enfoque permite organizar el código de manera modular y reutilizable, facilitando el desarrollo y mantenimiento de software.
+ -  Es un paradigma de programación basado en el concepto de objetos, que son entidades que combinan datos (atributos) y comportamientos (métodos). Este enfoque permite organizar el código de manera modular y reutilizable, facilitando el desarrollo y mantenimiento de software.
 
 
-## Fundamentos de la Programacion Orientada a Objetos (#Fundamentos)
+# Fundamentos de la Programacion Orientada a Objetos (#Fundamentos)
 
-  ###Clase y Objetos : Son plantillas o moldes para crear objetos. Definen los atributos y métodos que tendrán los objetos.
- Ejemplo : Piensa en una receta de pizza. La receta describe los ingredientes y los pasos para hacer una pizza, pero no es una pizza real, sino solo un concepto.
+ - Clase y Objetos : Son plantillas o moldes para crear objetos. Definen los atributos y métodos que tendrán los 
+                    objetos.
+ 
+ - Ejemplo : Piensa en una receta de pizza. La receta describe los ingredientes y los pasos para hacer una pizza, pero no es una pizza real, sino solo un concepto.
  La receta es la clase.
 
-Cada pizza que cocinas usando la receta es un objeto basado en la clase "Receta de Pizza".
+  Cada pizza que cocinas usando la receta es un objeto basado en la clase "Receta de Pizza".
 
 
-  ### Objetos: Son instancias de una clase; cada objeto tiene su propio estado y comportamiento.
+  - Objetos: Son instancias de una clase; cada objeto tiene su propio estado y comportamiento.
 
  
-  ### Encapsulamiento: Consiste en ocultar los detalles internos de un objeto y exponer solo lo necesario para su uso.
+  - Encapsulamiento: Consiste en ocultar los detalles internos de un objeto y exponer solo lo necesario para su uso.
   El encapsulamiento oculta detalles internos y solo permite acceso a lo necesario.
 
- Ejemplo:
-Un control remoto tiene botones para cambiar el canal y subir el volumen, pero no necesitas saber cómo funciona internamente el circuito para usarlo.
+  - Ejemplo:
+    Un control remoto tiene botones para cambiar el canal y subir el volumen, pero no necesitas saber cómo funciona 
+    internamente el circuito para usarlo.
 
 Los botones son la interfaz pública (lo que el usuario puede tocar).
 
 Los circuitos internos están ocultos dentro del control (no se pueden manipular directamente).
 
 
-   ### Herencia: 
-  Permite que una clase (subclase) herede atributos y métodos de otra clase (superclase), promoviendo la reutilización del código.
- La herencia permite que una entidad herede características de otra.
+- Herencia: 
+  Permite que una clase (subclase) herede atributos y métodos de otra clase (superclase), promoviendo la 
+  reutilización del código.
 
- Ejemplo:
-Imagina que tienes una bicicleta y una motocicleta.
+La herencia permite que una entidad herede características de otra.
+
+- Ejemplo:
+   Imagina que tienes una bicicleta y una motocicleta.
 
 Ambas tienen ruedas, manubrio y frenos (atributos comunes).
 
 Pero la motocicleta tiene motor, mientras que la bicicleta no
 
-  ### Polimorfismo: Permite que un mismo método tenga diferentes comportamientos según el objeto que lo utilice.
+  - Polimorfismo: Permite que un mismo método tenga diferentes comportamientos según el objeto que lo utilice.
 
- El polimorfismo permite que diferentes objetos respondan de manera diferente a una misma acción.
+    El polimorfismo permite que diferentes objetos respondan de manera diferente a una misma acción.
 
- Ejemplo:
-Un músico toca diferentes instrumentos, pero cada uno suena distinto.
+  - Ejemplo:
+    Un músico toca diferentes instrumentos, pero cada uno suena distinto.
 
 Si le das una guitarra, tocará acordes.
 
@@ -58,133 +67,131 @@ Si le das un piano, tocará notas.
 
 Si le das una batería, hará ritmos.
 
-### Abstracción
-La abstracción oculta los detalles complejos y solo muestra lo esencial.
- Ejemplo:
-Piensa en conducir un coche.
+- Abstracción
+ La abstracción oculta los detalles complejos y solo muestra lo esencial.
 
-Sabes que para arrancarlo solo giras la llave o presionas un botón.
+- Ejemplo:  
 
-No necesitas conocer cómo funciona el motor internamente, la combustión, la transmisión, etc.
+  Piensa en conducir un coche.
 
-La abstracción en POO funciona igual: te da herramientas sencillas sin mostrar la complejidad interna.
+ Sabes que para arrancarlo solo giras la llave o presionas un botón.
 
+ No necesitas conocer cómo funciona el motor internamente, la combustión, la transmisión, etc.
 
-#Requisitos iniciales del sistema
-
-
-## Gestión de usuarios
-
-# User Registration 
-El sistema debe permitir registrar, editar y eliminar usuarios.
-
-Cada usuario tendrá atributos como nombre, ID, tipo (estudiante/profesor).
-
-Se pueden definir clases como Usuario, Estudiante y Profesor, donde Estudiante y Profesor hereden de Usuario.
+ La abstracción en POO funciona igual: te da herramientas sencillas sin mostrar la complejidad interna.
 
 
-#Desarrollar cinco casos de uso con el formato
+# Requisitos iniciales del sistema
+
+- Registro de usuarios: El sistema debe permitir la creación y gestión de usuarios.
+
+- Gestión de turnos: Los usuarios deben poder solicitar, cancelar y reprogramar turnos.
+
+- Notificaciones: El sistema debe enviar recordatorios de turnos vía correo o mensaje.
+
+- Historial de turnos: Se debe permitir consultar turnos pasados.
+
+-Control de acceso:Solo usuarios registrados pueden acceder a ciertas funciones.
+
+
+# Desarrollar cinco casos de uso con el formato
 adecuado:
+  
 
-# Create Account
-Actores involucrados: Usuario y sistema
-Descripción breve: Permite a un nuevo usuario crear una cuenta en la plataforma.
-Flujo principal de eventos
-El usuario accede a la página de registro.
-El usuario ingresa su información personal (nombre, correo, contraseña).
-El sistema valida la información ingresada.
-El sistema crea una nueva cuenta y envía un correo de confirmación.
-El usuario recibe el correo y confirma su registro.
-Precondiciones: El usuario no debe tener una cuenta existente.
-Postcondiciones: El usuario tiene una cuenta activa en el sistema.
+ ## Consulta de turnos
 
+- Descripción:
+  El paciente puede ver los turnos que tiene registrados, ya sea próximos o pasados.
 
+- Precondiciones:
 
-# Login
-Actores involucrados: Usuario, Sistema
-Descripción breve: Permite a un usuario registrado acceder a su cuenta.
-Flujo principal de eventos:
-El usuario accede a la página de inicio de sesión.
-El usuario ingresa su correo y contraseña.
-El sistema valida las credenciales.
-El sistema redirige al usuario a su panel de control.
-Precondiciones: El usuario debe tener una cuenta registrada.
-Postcondiciones: El usuario está autenticado y tiene acceso a su cuenta.
+El paciente debe haber iniciado sesión.
 
-# Password recovery
-1️⃣ Ir a "Olvidé mi contraseña" en la pantalla de inicio de sesión.
-2️⃣ Ingresar correo o usuario para verificar la identidad.
-3️⃣ Recibir un código o enlace por correo o SMS.
-4️⃣ Ingresar el código o acceder al enlace de recuperación.
-5️⃣ Crear una nueva contraseña segura.
-6️⃣ Confirmar el cambio y recibir notificación.
-7️⃣ Iniciar sesión con la nueva contraseña.
+- Postcondiciones:
 
-# Solicitar Turnos 
-1️⃣ Iniciar sesión en el sistema con usuario y contraseña.
-2️⃣ Seleccionar "Solicitar Turno" en el menú principal.
-3️⃣ Elegir especialidad y médico disponible.
-4️⃣ Seleccionar fecha y hora según la disponibilidad.
-5️⃣ Confirmar el turno y agregar observaciones si es necesario.
-6️⃣ Recibir confirmación del turno por correo o SMS.
-
-# Cierre de Sesion 
-1️⃣ Ir al menú de usuario (generalmente en la esquina superior).
-2️⃣ Seleccionar "Cerrar sesión" o "Salir".
-3️⃣ Confirmar la acción si el sistema lo solicita.
-4️⃣ Ser redirigido a la pantalla de inicio de sesión.
+  Se muestra la información de los turnos asociados al paciente.
 
 
+## Solicitud de turno
 
-#EJEMPLO : 
-## Ejemplo de Gestión de Turnos en un Centro de Salud
-1️⃣ Registro de Médicos y Especialidades
-El sistema almacena los datos de los médicos, incluyendo su especialidad, horario de atención y datos de contacto.
 
-El Dr. Juan Pérez es especialista en Cardiología y atiende de lunes a viernes de 9:00 a 14:00. Su contacto es 123-456789 y su correo electrónico es juan@salud.com.
+- Descripción:
+El paciente accede al sistema para solicitar un turno con un médico en una fecha y hora disponibles según la especialidad médica.
 
-La Dra. Ana Gómez, especialista en Pediatría, atiende los martes y jueves de 10:00 a 16:00, con contacto 234-567890 y correo ana@salud.com.
+- Precondiciones:
 
-El Dr. Carlos Ruiz se especializa en Dermatología y atiende los lunes, miércoles y viernes de 8:00 a 12:00. Su contacto es 345-678901 y su correo carlos@salud.com.
+El paciente debe estar registrado e iniciar sesión en el sistema.
 
-2️⃣ Registro de Pacientes
-El sistema también guarda la información de los pacientes.
+Deben existir médicos disponibles con horarios habilitados.
 
-Por ejemplo, María López tiene el documento 12345678, nació el 15 de abril de 1985, su teléfono es 555-1234, y su correo electrónico es maria@gmail.com.
+- Postcondiciones:
 
-Otro paciente, Pedro Ramírez, tiene el documento 87654321, nació el 22 de agosto de 1992, y sus datos de contacto son el teléfono 555-5678 y el correo pedro@gmail.com.
+Se registra un nuevo turno en el sistema.
 
-3️⃣ Asignación de Turno
-María López necesita un turno con un especialista en Cardiología, por lo que solicita una cita con el Dr. Juan Pérez.
+El paciente recibe una confirmación del turno solicitado.
 
-El sistema verifica la disponibilidad del médico y agenda el turno para el 5 de abril de 2024 a las 10:30. El estado del turno queda "Confirmado".
 
-El motivo de la consulta es un chequeo de presión arterial, y en las observaciones se registra que la paciente tiene antecedentes de hipertensión.
+### Notificación de turnos
 
-4️⃣ Cambio o Cancelación de Turno
-Si María decide cancelar su turno, el estado del mismo cambia a "Cancelado", y el sistema envía una notificación con la actualización.
 
-Por ejemplo, el mensaje de notificación podría ser:
+- Descripción:
+El sistema envía notificaciones automáticas a los pacientes para recordarles sus turnos próximos.
 
-"Estimado/a María López, su turno con el Dr. Juan Pérez el 05/04/2024 a las 10:30 ha sido cancelado. Para reprogramar, comuníquese al 123-456789."
+- Precondiciones:
 
-📌 Resumen del Proceso
-Se registran los médicos con sus especialidades y horarios de atención.
+El paciente debe tener un turno registrado en el sistema.
 
-Se almacenan los datos de los pacientes con su historial de turnos.
+Debe haber un medio de contacto disponible (correo electrónico, SMS, etc.).
 
-Se asignan turnos de acuerdo con la disponibilidad del profesional de salud.
+- Postcondiciones:
 
-Los turnos pueden ser confirmados, cancelados o modificados según sea necesario.
+El paciente es notificado del turno.
 
-El sistema envía notificaciones a los pacientes cuando hay cambios en sus turnos.
+Se registra que la notificación fue enviada.
 
- 
+### Modificar turno
+
+- Descripción:
+
+El paciente puede cambiar la fecha u hora de un turno previamente solicitado, siempre que haya disponibilidad.
+
+- Precondiciones:
+
+El paciente debe haber iniciado sesión.
+
+El turno debe estar activo y no haber pasado aún.
+
+Debe haber disponibilidad en el nuevo horario solicitado.
+
+- Postcondiciones:
+
+Se actualiza la información del turno en el sistema.
+
+Se notifica al paciente del cambio realizado.
+
+### Cancelar turno
+
+- Descripción:
+
+El paciente puede cancelar un turno registrado en el sistema si no puede asistir.
+
+- Precondiciones:
+
+El paciente debe haber iniciado sesión.
+
+El turno debe estar activo y no haber pasado aún.
+
+- Postcondiciones:
+
+El turno es eliminado del sistema.
+
+El horario liberado queda disponible para otros pacientes.
+
 
 
 # Boceto inicial del diseño de clases!
 
-https://drive.google.com/file/d/1J3fUEufcSSQtmo6P_uzmzKNsp3pljCgJ/view?usp=sharing
+
 
 
 
