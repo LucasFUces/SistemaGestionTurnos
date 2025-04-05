@@ -12,7 +12,9 @@
 
  - ¿Que es el Paradigma Orientado a Objetos?
 
- -  Es un paradigma de programación basado en el concepto de objetos, que son entidades que combinan datos (atributos) y comportamientos (métodos). Este enfoque permite organizar el código de manera modular y reutilizable, facilitando el desarrollo y mantenimiento de software.
+ -  Es un paradigma de programación basado en el concepto de objetos, que son entidades que combinan datos 
+    (atributos) y comportamientos (métodos). Este enfoque permite organizar el código de manera modular y 
+    reutilizable, facilitando el desarrollo y mantenimiento de software.
 
 
 # Fundamentos de la Programacion Orientada a Objetos (#Fundamentos)
@@ -20,8 +22,9 @@
  - Clase y Objetos : Son plantillas o moldes para crear objetos. Definen los atributos y métodos que tendrán los 
                     objetos.
  
- - Ejemplo : Piensa en una receta de pizza. La receta describe los ingredientes y los pasos para hacer una pizza, pero no es una pizza real, sino solo un concepto.
- La receta es la clase.
+ - Ejemplo : Piensa en una receta de pizza. La receta describe los ingredientes y los pasos para hacer una pizza, 
+   pero no es una pizza real, sino solo un concepto.
+   La receta es la clase.
 
   Cada pizza que cocinas usando la receta es un objeto basado en la clase "Receta de Pizza".
 
@@ -36,9 +39,9 @@
     Un control remoto tiene botones para cambiar el canal y subir el volumen, pero no necesitas saber cómo funciona 
     internamente el circuito para usarlo.
 
-Los botones son la interfaz pública (lo que el usuario puede tocar).
+  Los botones son la interfaz pública (lo que el usuario puede tocar).
 
-Los circuitos internos están ocultos dentro del control (no se pueden manipular directamente).
+  Los circuitos internos están ocultos dentro del control (no se pueden manipular directamente).
 
 
 - Herencia: 
@@ -50,35 +53,36 @@ La herencia permite que una entidad herede características de otra.
 - Ejemplo:
    Imagina que tienes una bicicleta y una motocicleta.
 
-Ambas tienen ruedas, manubrio y frenos (atributos comunes).
+  Ambas tienen ruedas, manubrio y frenos (atributos comunes).
 
-Pero la motocicleta tiene motor, mientras que la bicicleta no
+  Pero la motocicleta tiene motor, mientras que la bicicleta no
 
   - Polimorfismo: Permite que un mismo método tenga diferentes comportamientos según el objeto que lo utilice.
 
     El polimorfismo permite que diferentes objetos respondan de manera diferente a una misma acción.
 
   - Ejemplo:
+
     Un músico toca diferentes instrumentos, pero cada uno suena distinto.
 
-Si le das una guitarra, tocará acordes.
+  Si le das una guitarra, tocará acordes.
 
-Si le das un piano, tocará notas.
+  Si le das un piano, tocará notas.
 
-Si le das una batería, hará ritmos.
+  Si le das una batería, hará ritmos.
 
 - Abstracción
- La abstracción oculta los detalles complejos y solo muestra lo esencial.
+  La abstracción oculta los detalles complejos y solo muestra lo esencial.
 
 - Ejemplo:  
 
   Piensa en conducir un coche.
 
- Sabes que para arrancarlo solo giras la llave o presionas un botón.
+  Sabes que para arrancarlo solo giras la llave o presionas un botón.
 
- No necesitas conocer cómo funciona el motor internamente, la combustión, la transmisión, etc.
+  No necesitas conocer cómo funciona el motor internamente, la combustión, la transmisión, etc.
 
- La abstracción en POO funciona igual: te da herramientas sencillas sin mostrar la complejidad interna.
+  La abstracción en POO funciona igual: te da herramientas sencillas sin mostrar la complejidad interna.
 
 
 # Requisitos iniciales del sistema
@@ -95,21 +99,21 @@ Si le das una batería, hará ritmos.
 
 
 # Desarrollar cinco casos de uso con el formato
-adecuado:
+  adecuado:
   
+  
+## Consulta de turnos
 
- ## Consulta de turnos
-
-- Descripción:
+-  Descripción:
   El paciente puede ver los turnos que tiene registrados, ya sea próximos o pasados.
 
-- Precondiciones:
+-  Precondiciones:
 
-El paciente debe haber iniciado sesión.
+   El paciente debe haber iniciado sesión.
 
 - Postcondiciones:
 
-  Se muestra la información de los turnos asociados al paciente.
+   Se muestra la información de los turnos asociados al paciente.
 
 
 ## Solicitud de turno
@@ -139,13 +143,13 @@ El sistema envía notificaciones automáticas a los pacientes para recordarles s
 
 - Precondiciones:
 
-El paciente debe tener un turno registrado en el sistema.
+  El paciente debe tener un turno registrado en el sistema.
 
 Debe haber un medio de contacto disponible (correo electrónico, SMS, etc.).
 
 - Postcondiciones:
 
-El paciente es notificado del turno.
+ El paciente es notificado del turno.
 
 Se registra que la notificación fue enviada.
 
