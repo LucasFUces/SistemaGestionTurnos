@@ -1,14 +1,5 @@
--[Introduccion](#introduccion)
 
--[Fundamentos](#Fundamentos)
-
--[Requisitos Iniciales](#Requisitos)
-
--[Casos de Uso](#casos)
-
--[Boceto Inicial](#Boceto)
-
-# Introduccion (#Introduccion)
+# Introduccion 
 
  - ¿Que es el Paradigma Orientado a Objetos?
 
@@ -17,7 +8,7 @@
     reutilizable, facilitando el desarrollo y mantenimiento de software.
 
 
-# Fundamentos de la Programacion Orientada a Objetos (#Fundamentos)
+# Fundamentos de la Programacion Orientada a Objetos 
 
  - Clase y Objetos : Son plantillas o moldes para crear objetos. Definen los atributos y métodos que tendrán los 
                     objetos.
