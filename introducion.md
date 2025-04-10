@@ -188,7 +188,7 @@ La herencia permite que una entidad herede características de otra.
 
 # Boceto inicial del diseño de clases
 
-![](image.png)
+![](TABLASDEDOO.drawio)
 
 
 
