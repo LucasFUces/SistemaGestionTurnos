@@ -6,11 +6,24 @@
 [Archivo](https://drive.google.com/file/d/1TzVzY68oSRrOW13eLcp3UNIzlNYPKKte/view?usp=sharing)
 
 
-##Caso 2 : Solicitar Turnos 
+## Caso 2 : Solicitar Turnos 
 
 ![Caso 2](https://github.com/user-attachments/assets/43f6c001-671a-49e0-b57c-635b0c8f11ff)
 
 [Archihivo](https://drive.google.com/file/d/15CZQ2N7af3odJYdb2LWRDoyNKjh0XS6N/view?usp=sharing)
 
 
-##Caso 3 : 
+## Caso 3 : Notificacion de Turnos
+
+![Caso 3](https://github.com/user-attachments/assets/fd1820e6-18c2-4b6d-bbcb-8bfe034c03d0)
+
+[Archivo](https://drive.google.com/file/d/1k2X9VUrdJOemYtUGCjhjd_w5Fp8DUkdI/view?usp=sharing)
+
+
+## Caso 4 : 
+
+
+
+
+
+
