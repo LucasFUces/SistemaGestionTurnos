@@ -20,15 +20,18 @@
 [Archivo](https://drive.google.com/file/d/1k2X9VUrdJOemYtUGCjhjd_w5Fp8DUkdI/view?usp=sharing)
 
 
-## Caso 4 : Modificacion de Turno 
+## Caso 4 : Modificacion de Turnos
 
 ![Caso 4](https://github.com/user-attachments/assets/5bc90dbc-637a-414d-8f01-1f0b45468d16)
 
 [Archivo](https://drive.google.com/file/d/1-wcYoqYWbJNFNON0-WhaEgUCc5GUfxmI/view?usp=sharing)
 
 
-## Caso 5 : Cancelacion de Turno 
+## Caso 5 : Cancelar Turnos
 
+![Caso 5](https://github.com/user-attachments/assets/6ad16ff9-597d-403d-ba42-a58a22171d5b)
+
+[Archivo](https://drive.google.com/file/d/1Z7m3IDxToByNTrhH5ManuOUWcwLI3eDH/view?usp=sharing)
 
 
 
