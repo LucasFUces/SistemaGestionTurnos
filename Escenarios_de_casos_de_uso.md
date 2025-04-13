@@ -59,9 +59,9 @@ La transacción se completa con éxito y el usuario recibe una notificación de 
 
 ### Descripcion general:
 
- - Una vez que el usuario completa el turno , el sistema envía automáticamente una notificación al paciente 
-   confirmando su turno. Este aviso se realiza por correo electrónico e incluye la fecha del turno y el médico 
-   asignado, funcionando como un recordatorio.
+ - Cuando el usuario completa el turno , el sistema envía automáticamente una notificación al paciente 
+   confirmando su turno. Esta notificacion del aviso se realiza por correo electrónico e incluye la fecha del turno, 
+   el dia, la hora  y el médico asignado, funcionando como un recordatorio.
 
 ### Flujo de eventos
 
@@ -149,6 +149,12 @@ La transacción se completa con éxito y el usuario recibe una notificación de 
  - El turno se marca como cancelado en el sistema.
  - Se envía una notificación al usuario confirmando la cancelación.
  - Se actualiza la disponibilidad del turno en el sistema.
+
+
+![Captura de pantalla 2025-04-13 172809](https://github.com/user-attachments/assets/6e635094-51ba-4563-914f-009a58195023)
+
+
+
 
    
 
