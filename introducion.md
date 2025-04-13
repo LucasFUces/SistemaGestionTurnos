@@ -113,7 +113,7 @@ La herencia permite que una entidad herede características de otra.
 
 - Descripción:
   El paciente accede al sistema para solicitar un turno con un médico en una fecha y hora disponibles según la 
-  especialidad médica.
+  especialidad de cada medico.
 
 - Precondiciones:
 
