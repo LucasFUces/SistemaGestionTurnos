@@ -9,13 +9,13 @@
 
 
 
-### Tarjeta CRC: Consultar Turno 
+  ### Tarjeta CRC: Consultar Turno 
 
-**Nombre de la Clase:**  Consultar Turno 
+  **Nombre de la Clase:**  Consultar Turno 
 
-**Superclase:** Sistema 
+  **Superclase:** Sistema 
 
-**Subclase:** -
+  **Subclase:** -
 
 - Pensamiento del objeto: Se presenta el usuario en recepcion con sus respectivos datos (DNI)  para consultar un 
   turno con el medico y la especialidad del medico que requiera. 
@@ -33,13 +33,13 @@
 
 
 
- ### Tarjeta CRC: Solicitar Turnos  
+   ### Tarjeta CRC: Solicitar Turnos  
 
-**Nombre de la Clase:**  Solicitar Turnos 
+  **Nombre de la Clase:**  Solicitar Turnos 
 
-**Superclase:** Sistema 
+   **Superclase:** Sistema 
 
-**Subclase:** -
+   **Subclase:** -
 
 
  - Pensamiento del objeto: El usuario debe registrar su turno con sus datos correspondientes, solicitando fecha, dia 
@@ -62,11 +62,11 @@
 
 ### Tarjeta CRC: Notificacion Turnos  
 
-**Nombre de la Clase:**  Notificacion de Turnos
+   **Nombre de la Clase:**  Notificacion de Turnos
 
-**Superclase:** Sistema
-
-**Subclase:** -
+   **Superclase:** Sistema
+ 
+   **Subclase:** -
 
 
  - Pensamiento del objeto: El usuario tiene que conocer los datos sobre el turno y el medico que fue designado al 
@@ -86,13 +86,13 @@
 
 
 
-### Tarjeta CRC: Modificacion de Turnos  
+   ### Tarjeta CRC: Modificacion de Turnos  
 
-**Nombre de la Clase:** Modificacion de Turnos
+   **Nombre de la Clase:** Modificacion de Turnos
 
-**Superclase:** Sistema 
+   **Superclase:** Sistema 
 
-**Subclase:** -
+   **Subclase:** -
 
 
 - Pensamiento del objeto: El usuario debe conocer sus datos, los datos del turno , sus posibles cambios. 
@@ -111,13 +111,13 @@
 
 
 
-### Tarjeta CRC: Cancelar Turnos  
+   ### Tarjeta CRC: Cancelar Turnos  
 
-**Nombre de la Clase:** Cancelar Turnos
+   **Nombre de la Clase:** Cancelar Turnos
 
-**Superclase:** Sistema 
+   **Superclase:** Sistema 
 
-**Subclase:** -
+   **Subclase:** -
 
 
 - Pensamiento del objeto: El usuario debe conocer los datos del turno que va a cancelar y notificar la cancelacion 
