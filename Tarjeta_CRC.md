@@ -1,6 +1,9 @@
+
 ## Tarjetas CRC 
 
-- Las tarjetas CRC (Clase-Responsabilidad-Colaboración) son una herramienta clave en la programación orientada a objetos. Sirven para reconocer y describir las clases 
+
+- Las tarjetas CRC (Clase-Responsabilidad-Colaboración) son una herramienta clave en la programación orientada a 
+  objetos. Sirven para reconocer y describir las clases 
   más importantes de un sistema, especificando qué funciones deben cumplir y con qué otras clases deben interactuar. 
 
 
@@ -14,13 +17,14 @@
 
 **Subclase:** -
 
-- Pensamiento del objeto: Se presenta el usuario en recepcion con sus respectivos datos (DNI)  para consultar un turno con el medico y la especialidad del medico que 
-  requiera, 
-  teniendo en cuenta la fecha, el dia y la hora a su conveniencia . Conociendo la agenda medica 
+- Pensamiento del objeto: Se presenta el usuario en recepcion con sus respectivos datos (DNI)  para consultar un 
+  turno con el medico y la especialidad del medico que requiera. 
+  teniendo en cuenta la fecha, el dia y la hora a su conveniencia . Conociendo la agenda medica .
 
-- Responsabilidades: Poder consultar por un turno medico, Conocer el id Usuario, sus datos generales, datos del turno consultado, que medico solicitar 
+- Responsabilidades: Poder consultar por un turno medico, Conocer el id Usuario, sus datos generales, datos del turno 
+  consultado, que medico solicitar.
 
-- Colaboradores: Solicitar turno 
+- Colaboradores: Solicitar turno.
 
 - Propiedad:  Nro de Usuario , DNI, correo, telefono ,  dia, hora y fecha del turno, medico, especialidad del medico .
 
@@ -38,10 +42,12 @@
 **Subclase:** -
 
 
- - Pensamiento del objeto: El usuario debe registrar su turno con sus datos correspondientes, solicitando fecha, dia , hora y la especialidad del medico a su 
+ - Pensamiento del objeto: El usuario debe registrar su turno con sus datos correspondientes, solicitando fecha, dia 
+  , hora y la especialidad del medico a su 
    conveniencia. 
 
-- Responsabilidades: Poder solicitar un turno medico, conocer la agenda del medico para saber la disponibilidad de turnos.  
+- Responsabilidades: Poder solicitar un turno medico, conocer la agenda del medico para saber la disponibilidad de 
+  turnos.  
 
 - Colaboradores: Notificacion del turno , consulta de turnos.  
 
@@ -58,12 +64,13 @@
 
 **Nombre de la Clase:**  Notificacion de Turnos
 
-**Superclase:** Notificacion de Turnos 
+**Superclase:** Sistema
 
 **Subclase:** -
 
 
- - Pensamiento del objeto: El usuario tiene que conocer los datos sobre el turno y el medico que fue designado al turno para enviar el correo y o mensaje al usuario,
+ - Pensamiento del objeto: El usuario tiene que conocer los datos sobre el turno y el medico que fue designado al 
+   turno para enviar el correo y o mensaje al usuario,
 
 - Responsabilidades: Poder notificar a los pacientes.
 
@@ -72,12 +79,18 @@
 - Propiedad:  Dia, hora, fecha  y especialidad el medico. 
 
 
+![Captura de pantalla 2025-04-13 195039](https://github.com/user-attachments/assets/b4055b1b-6a59-48f9-8645-9db39b05e8f2)
+
+
+
+
+
 
 ### Tarjeta CRC: Modificacion de Turnos  
 
 **Nombre de la Clase:** Modificacion de Turnos
 
-**Superclase:** Modificacion de Turnos 
+**Superclase:** Sistema 
 
 **Subclase:** -
 
@@ -88,7 +101,12 @@
 
 - Colaboradores: Solicitud de turno , Notificacion de turno.
 
-- Propiedad: Dia, fecha , hora id Usuario , especialidad del medico. 
+- Propiedad: Dia, fecha , hora, id Usuario , especialidad del medico. 
+
+
+![Captura de pantalla 2025-04-13 194915](https://github.com/user-attachments/assets/248cea92-dff0-48e0-954e-2fb7d96e24e4)
+
+
 
 
 
@@ -97,18 +115,22 @@
 
 **Nombre de la Clase:** Cancelar Turnos
 
-**Superclase:** Cancelar Turnos 
+**Superclase:** Sistema 
 
 **Subclase:** -
 
 
-- Pensamiento del objeto: El usuario debe conocer los datos del turno que va a cancelar y notificar la cancelacion del turno  
+- Pensamiento del objeto: El usuario debe conocer los datos del turno que va a cancelar y notificar la cancelacion 
+  del turno  
 
 - Responsabilidades: El usuario debe poder cancelar el turno y notificar la cancelacion.
 
 - Colaboradores: Solicitud de Turno, Notificacion.
 
-- Propiedad: Usuario, turno, especialidad, medico. 
+- Propiedad: Usuario, dia fecha y hora del turno, especialidad, medico. 
+
+
+![Captura de pantalla 2025-04-13 195554](https://github.com/user-attachments/assets/60fbc1a3-dea8-475e-b8e4-e593647c5ca9)
 
 
 
