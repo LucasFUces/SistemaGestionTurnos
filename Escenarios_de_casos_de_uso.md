@@ -88,8 +88,8 @@ La transacción se completa con éxito y el usuario recibe una notificación de 
 
 - La fecha y hora en la que se emite dicha notificación quedan registradas automáticamente en el sistema.
 
-![Captura de pantalla 2025-04-12 175413](https://github.com/user-attachments/assets/465bb905-a575-4852-b988-
-f6b535f9a67a)
+
+![Captura de pantalla 2025-04-12 175413](https://github.com/user-attachments/assets/34505b71-c2bd-4500-8de8-9840ab8a3c05)
 
 
 ## Caso 4 : Modificacion de Turnos 
