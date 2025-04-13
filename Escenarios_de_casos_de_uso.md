@@ -1,7 +1,77 @@
 # Escenario de Caso de Uso 
 
+## Caso 1 : Consulta de turnos
 
-## Caso 1: Notificaciones
+### Descripcion general
+
+ - Permite al usuario visualizar los turnos solicitados.
+
+### Flujo principal de eventos
+
+  - El usuario ingresa al sistema.
+
+  - El usuario se dirige a "Consultar turnos".
+
+  - El sistema muestra el historial de turnos del usuario.
+
+![Captura de pantalla 2025-04-13 161623](https://github.com/user-attachments/assets/8e824b00-6e14-49b4-8713-b5076364e00e)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+## Caso 3: Notificaciones
 
 ### Descripcion general:
 
