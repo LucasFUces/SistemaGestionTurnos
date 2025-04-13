@@ -16,4 +16,6 @@
 
 [Anexos](anexos.md)
 
-[diagramasUMl](DiagramasUML.md)
+[DiagramasUMl](DiagramasUML.md)
+
+[HerramientasAgile](Herramientas_Agile.md)
