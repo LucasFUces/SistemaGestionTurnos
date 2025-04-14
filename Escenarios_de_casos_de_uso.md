@@ -151,14 +151,8 @@ La transacción se completa con éxito y el usuario recibe una notificación de 
  - Se actualiza la disponibilidad del turno en el sistema.
 
 
-![Captura de pantalla 2025-04-13 172809](https://github.com/user-attachments/assets/6e635094-51ba-4563-914f-009a58195023)
 
-
-
-
-   
-
-
+![Captura de pantalla 2025-04-14 203006](https://github.com/user-attachments/assets/a2079f53-a2ff-4534-80c3-0e514dd14a81)
 
 
 
