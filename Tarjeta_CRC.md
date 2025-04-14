@@ -51,7 +51,7 @@
 
 - Colaboradores: Notificacion del turno , consulta de turnos.  
 
-- Propiedad:  Usuario, medico, agenda 
+- Propiedad:  Usuario, medico, agenda.
 
 
 
@@ -70,7 +70,7 @@
 
 
  - Pensamiento del objeto: El usuario tiene que conocer los datos sobre el turno y el medico que fue designado al 
-   turno para enviar el correo y o mensaje al usuario,
+   turno para enviar el correo y o mensaje al usuario.
 
 - Responsabilidades: Poder notificar a los pacientes.
 
@@ -121,7 +121,7 @@
 
 
 - Pensamiento del objeto: El usuario debe conocer los datos del turno que va a cancelar y notificar la cancelacion 
-  del turno  
+  del turno.
 
 - Responsabilidades: El usuario debe poder cancelar el turno y notificar la cancelacion.
 
