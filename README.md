@@ -4,7 +4,7 @@
 - Nombre : Lucas Ivan Fischer
 - Carrera : Tecnicatura en Programacion (PR)  
 - Materia : Diseño Orientado a Obejtos 
-- Profesorr : Lic. Matias Alejandro Velasquez Rojas
+- Profeso : Lic. Matias Alejandro Velasquez Rojas
 - Año : 2025
 - Matricula : 152159
 
