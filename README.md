@@ -1,5 +1,4 @@
-# SistemaGestionTurnos
-
+# Sistema de Gestion de turnos - Diseño del Sistema 
 
 - Nombre : Lucas Ivan Fischer
 - Carrera : Tecnicatura en Programacion (PR)  
