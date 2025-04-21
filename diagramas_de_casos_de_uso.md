@@ -1,46 +1,53 @@
-## Caso 1 : Consulta de Turnos 
+## Diagramas de Casos de Uso
 
-- El paciente hace uso del sistema de gestion para consultar un turno con su medico.
+### Diagrama de Casos de Uso 1: Registrar un nuevo paciente
+Este caso de uso permite ingresar al sistema los datos personales de un nuevo paciente, como nombre, DNI, contacto y obra social. Es esencial para poder luego asignar turnos médicos y llevar un historial clínico.
   
-![Caso 1](https://github.com/user-attachments/assets/59543fde-408d-482b-9319-f0ab9ab0d0fb)
 
-[Archivo](https://drive.google.com/file/d/1TzVzY68oSRrOW13eLcp3UNIzlNYPKKte/view?usp=sharing)
+![Caso de Uso (1)](https://github.com/user-attachments/assets/355bd6eb-829a-4bbf-aa1a-3ef900527de8)
 
-
-## Caso 2 : Solicitar Turnos 
-
- - El paciente hace uso del sistema de gestion para solicitar un turno y acordar un dia, fecha y horario.
-
-![Caso 2](https://github.com/user-attachments/assets/43f6c001-671a-49e0-b57c-635b0c8f11ff)
-
-[Archihivo](https://drive.google.com/file/d/15CZQ2N7af3odJYdb2LWRDoyNKjh0XS6N/view?usp=sharing)
+[Registrar nuevo paciente](https://drive.google.com/file/d/1plu4b89nxBPJWOyjnpaaOk1gV23zkiCZ/view?usp=sharing)
 
 
-## Caso 3 : Notificacion de Turnos
-
-- El sistema le notifica al paciente mediante el sistema, la confirmacion del turno solicitado.
-
-![Caso 3](https://github.com/user-attachments/assets/fd1820e6-18c2-4b6d-bbcb-8bfe034c03d0)
-
-[Archivo](https://drive.google.com/file/d/1k2X9VUrdJOemYtUGCjhjd_w5Fp8DUkdI/view?usp=sharing)
 
 
-## Caso 4 : Modificacion de Turnos
+### Diagrama de Casos de Uso 2: Iniciar sesion en el sistema
+Permite a los usuarios registrados acceder al sistema utilizando sus credenciales, para utilizar las funciones correspondientes a su perfil (pedir turno, consultar agenda, etc.)
 
-- El paciente hace uso del sistema de gestion para lograr modificar el dia, fecha y hora del turno.
+![Caso de Uso (2)](https://github.com/user-attachments/assets/08bdada9-34a7-4f0d-b230-8b6801ae4021)
 
-![Caso 4](https://github.com/user-attachments/assets/5bc90dbc-637a-414d-8f01-1f0b45468d16)
-
-[Archivo](https://drive.google.com/file/d/1-wcYoqYWbJNFNON0-WhaEgUCc5GUfxmI/view?usp=sharing)
+[Iniciar sesion en el sistema](https://drive.google.com/file/d/1plu4b89nxBPJWOyjnpaaOk1gV23zkiCZ/view?usp=sharing)
 
 
-## Caso 5 : Cancelar Turnos
 
-- El paciente interactua con el sistema de gestion , para solicitar la cancelacion del turno programado.
 
-![Caso 5](https://github.com/user-attachments/assets/6ad16ff9-597d-403d-ba42-a58a22171d5b)
+### Diagrama de Casos de Uso 3:Solicitar Turno Medico
+Permite al paciente (o al recepcionista en su nombre) seleccionar un médico, una especialidad y una fecha para agendar un turno. El sistema muestra los horarios disponibles y confirma la reserva del turno.
 
-[Archivo](https://drive.google.com/file/d/1Z7m3IDxToByNTrhH5ManuOUWcwLI3eDH/view?usp=sharing)
+![Caso de Uso (3)](https://github.com/user-attachments/assets/14e4bb1f-df59-400f-8cb3-07f4254498d9)
+
+[Solicitar turno medico](https://drive.google.com/file/d/1plu4b89nxBPJWOyjnpaaOk1gV23zkiCZ/view?usp=sharing)
+
+
+
+
+
+### Diagrama de Casos de Uso 4:Cancelar Turno
+Este caso de uso permite al paciente o al personal administrativo cancelar un turno previamente agendado.
+
+ ![Caso de Uso (4)](https://github.com/user-attachments/assets/13336450-726c-48be-8a72-aa9a5ed9f591)
+
+[Cancelar Turno](https://drive.google.com/file/d/1plu4b89nxBPJWOyjnpaaOk1gV23zkiCZ/view?usp=sharing)
+
+
+
+### Diagrama de Casos de Uso 5: Registrar atencion medica
+Una vez que el paciente es atendido, el médico registra en el sistema las observaciones clínicas, el diagnóstico y su tratamiento.
+
+ ![Caso de Uso (5)](https://github.com/user-attachments/assets/f4b42ffc-0ecc-412c-91ad-a99a942ccdea)
+
+
+ [Registrar atencion medica]( https://drive.google.com/file/d/1plu4b89nxBPJWOyjnpaaOk1gV23zkiCZ/view?usp=sharing)
 
 
 
