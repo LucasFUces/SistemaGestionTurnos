@@ -1,6 +1,6 @@
 # Sistema de Gestion de Turnos 
 
-- Fischer Lucas Ivan
+- Fischerr Lucas Ivan
 - Tecnicatura en Programacion 
 - Diseño Orientado a Objetos
 - Profesor , Lic Matias Velasquez
