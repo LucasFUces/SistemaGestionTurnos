@@ -1,136 +1,124 @@
 
-## Tarjetas CRC 
+## Tarjetas CRC
 
+Las Tarjetas CRC (Clase-Responsabilidad-Colaboración) se conforman de una
+herramienta esencial en el enfoque de la programación orientada a objetos (POO). Se
+utilizan para identificar y definir las clases principales de un sistema, así como sus
+responsabilidades y colaboraciones dentro del contexto del sistema
 
-- Las tarjetas CRC (Clase-Responsabilidad-Colaboración) son una herramienta clave en la programación orientada a 
-  objetos. Sirven para reconocer y describir las clases 
-  más importantes de un sistema, especificando qué funciones deben cumplir y con qué otras clases deben interactuar. 
+### Tarjeta CRC: Paciente
 
+**Nombre de la Clase:** Paciente
 
+**Superclase:** Persona
 
+**Subclase:** -
 
-  ### Tarjeta CRC: Consultar Turno 
+**Pensamiento del objeto:** Sé qué especialista requiero junto a mis datos personales. Necesito ver cuándo y con quién tengo turno. Avisare cuando no pueda asistir. Mis datos pueden cambiar.
+Quiero recordar mis turnos anteriores.
 
-  **Nombre de la Clase:**  Consultar Turno 
+**Responsabilidades:** Solicitar un turno, Consultar sus turnos programados, Cancelar un turno, Actualizar sus datos personales, Ver el historial de sus consultas.
 
-  **Superclase:** Sistema 
+**Colaboradores:** Agenda, Turno, Médico,recepcionista.
 
-  **Subclase:** -
+**Propiedad:** Nombre, apellido, fechaNacimiento, DNI, direccion,telefono,email.
 
-- Pensamiento del objeto: Se presenta el usuario en recepcion con sus respectivos datos (DNI)  para consultar un 
-  turno con el medico y la especialidad del medico que requiera. 
-  teniendo en cuenta la fecha, el dia y la hora a su conveniencia . Conociendo la agenda medica .
+![tarjetaCrcPaciente](https://github.com/user-attachments/assets/cd7cf5a6-8b10-4d75-b98b-63e8cc5c65de)
 
-- Responsabilidades: Poder consultar por un turno medico, Conocer el id Usuario, sus datos generales, datos del turno 
-  consultado, que medico solicitar.
 
-- Colaboradores: Solicitar turno.
 
-- Propiedad:  Nro de Usuario , DNI, correo, telefono ,  dia, hora y fecha del turno, medico, especialidad del medico .
+ ### Tarjeta CRC: Solicitar Turnos  
 
+ ### Tarjeta CRC: Médico
 
- ![Captura de pantalla 2025-04-13 190606](https://github.com/user-attachments/assets/34973169-cdcc-43e7-a33a-b824f9fbde9a)
+**Nombre de la Clase:** Médico
 
+**Superclase:** Persona
 
+**Subclase:** —
 
-   ### Tarjeta CRC: Solicitar Turnos  
+**Pensamiento del objeto:** Quiero recordar turnos. Necesito ver mi agenda, registrar observaciones y diagnósticos. Puedo modificar turnos si es necesario. Quiero acceder al historial de consultas de mis pacientes.
 
-  **Nombre de la Clase:**  Solicitar Turnos 
+**Responsabilidades:** Visualizar y gestionar su agenda de turnos,Registrar diagnósticos y observaciones médicas,Acceder al historial clínico de sus pacientes,Modificar o cancelar turnos.
 
-   **Superclase:** Sistema 
+**Colaboradores:** Turno,Paciente,HistoriaClinica,Agenda
 
-   **Subclase:** -
+**Propiedad a la que se referenciará:**
 
+Nombre, Apellido, especialidad, matricula, Horarios de Atencion
 
- - Pensamiento del objeto: El usuario debe registrar su turno con sus datos correspondientes, solicitando fecha, dia 
-  , hora y la especialidad del medico a su 
-   conveniencia. 
 
-- Responsabilidades: Poder solicitar un turno medico, conocer la agenda del medico para saber la disponibilidad de 
-  turnos.  
 
-- Colaboradores: Notificacion del turno , consulta de turnos.  
 
-- Propiedad:  Usuario, medico, agenda.
 
+### Tarjeta CRC: Recepcionista
 
+**Nombre de la Clase:** Recepcionista
 
-![Captura de pantalla 2025-04-13 191851](https://github.com/user-attachments/assets/788edab3-495d-4297-8725-b471640b3911)
+**Superclase:** Persona
 
+**Subclase:** —
 
+**Pensamiento del objeto:**
+Me encargo de la gestión de la agenda. Registro nuevos pacientes.organizo turnos, cancelo citas si es necesario.Me encargo de asignar turnos.Me encargo de consultar o actualizar los datos de los pacientes.
 
+**Responsabilidades:** Registrar nuevos pacientes en el sistema,Asignar turnos a pacientes,Cancelar o reprogramar turnos,Consultar agenda de médicos,Consultar los datos o actualizar de un paciente.
 
-### Tarjeta CRC: Notificacion Turnos  
 
-   **Nombre de la Clase:**  Notificacion de Turnos
+**Colaboradores:** Paciente,Turno,Agenda,Médico,recepcionista
 
-   **Superclase:** Sistema
- 
-   **Subclase:** -
+**Propiedad**:nombre,apellido,dni,email,telefono,direccion
 
 
- - Pensamiento del objeto: El usuario tiene que conocer los datos sobre el turno y el medico que fue designado al 
-   turno para enviar el correo y o mensaje al usuario.
 
-- Responsabilidades: Poder notificar a los pacientes.
 
-- Colaboradores: Solicitud de turno y cambio de turno.
 
-- Propiedad:  Dia, hora, fecha  y especialidad el medico. 
 
 
-![Captura de pantalla 2025-04-13 195039](https://github.com/user-attachments/assets/b4055b1b-6a59-48f9-8645-9db39b05e8f2)
 
+  ### Tarjeta CRC: Turno
 
+**Nombre de la Clase:** Turno
 
+**Superclase:** —
 
+**Subclase:** —
 
+**Pensamiento del objeto:** Tengo una fecha y una hora asignada,se quien me va a atender , se a quien debo atender, mi estado puede cambiar segun la accion realizada.
 
-   ### Tarjeta CRC: Modificacion de Turnos  
+**Responsabilidades:** Conocer su fecha y hora, Conocer el paciente asignado, Conocer el médico asignado, Cambiar su estado.
 
-   **Nombre de la Clase:** Modificacion de Turnos
+**Colaboradores:** Paciente, Médico,Recepcionista.
 
-   **Superclase:** Sistema 
+**Propiedad:** fecha, hora, estado, paciente,motivo de cancelacion.
 
-   **Subclase:** -
 
 
-- Pensamiento del objeto: El usuario debe conocer sus datos, los datos del turno , sus posibles cambios. 
 
-- Responsabilidades: Poder modificar los turnos en base a la agenda.
 
-- Colaboradores: Solicitud de turno , Notificacion de turno.
 
-- Propiedad: Dia, fecha , hora, id Usuario , especialidad del medico. 
+### Tarjeta CRC: Agenda
 
+**Nombre de la Clase:** Agenda
 
-![Captura de pantalla 2025-04-13 194915](https://github.com/user-attachments/assets/248cea92-dff0-48e0-954e-2fb7d96e24e4)
+**Superclase:** —
 
+**Subclase:** —
 
+**Pensamiento del objeto:** Organizo los turnos de un médico. Permito visualizar disponibilidad y asignar turnos nuevos.Muestro qué días y horarios están disponibles.Me encargo de mantener actualizada la disponibilidad para nuevos turnos,Asigno los turnos a los pacientes.
 
+**Responsabilidades principales:** Organizar agenda,Mostrar disponibilidad del médico,modificar o eliminar turnos,Filtrar por día o paciente,Asignar turno
 
+**Colaboradores:** Médico, Turno, Paciente
 
+**Propiedad:** fechaInicio, fechaFin, medicoId, listaTurnos,turno.
 
-   ### Tarjeta CRC: Cancelar Turnos  
 
-   **Nombre de la Clase:** Cancelar Turnos
 
-   **Superclase:** Sistema 
 
-   **Subclase:** -
+   
 
 
-- Pensamiento del objeto: El usuario debe conocer los datos del turno que va a cancelar y notificar la cancelacion 
-  del turno.
-
-- Responsabilidades: El usuario debe poder cancelar el turno y notificar la cancelacion.
-
-- Colaboradores: Solicitud de Turno, Notificacion.
-
-- Propiedad: Usuario, dia fecha y hora del turno, especialidad, medico. 
-
-
-![Captura de pantalla 2025-04-13 195554](https://github.com/user-attachments/assets/60fbc1a3-dea8-475e-b8e4-e593647c5ca9)
 
 
 
