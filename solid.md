@@ -6,7 +6,7 @@ A continuación, te presento una breve descripción de cada uno de estos princip
 
 * [Responsabilidad Única (SRP)](srp.md)
 
-*  [Abierto/Cerrado (OCP)](
+*  [Abierto/Cerrado (OCP)](ocp.MD)
 
 *   [Sustitución de Liskov (LSP)](
  
