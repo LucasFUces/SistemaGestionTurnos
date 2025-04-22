@@ -8,8 +8,8 @@ A continuación, te presento una breve descripción de cada uno de estos princip
 
 *  [Abierto/Cerrado (OCP)](ocp.MD)
 
-*   [Sustitución de Liskov (LSP)](
+*   [Sustitución de Liskov (LSP)](Lsp.MD)
  
-*   [Segregación de Interfaces (ISP)]
+*   [Segregación de Interfaces (ISP)](
  
-*   [Inversión de Dependencias (DIP)]   
+*   [Inversión de Dependencias (DIP)](   
