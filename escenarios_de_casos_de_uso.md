@@ -37,7 +37,7 @@ Permite que un nuevo usuario se registre en el sistema proporcionando sus datos 
 * **Suposiciones:** El formulario esta correctamente validado.
 
 
-[Enlace del Escenario](https://drive.google.com/file/d/1VCnmM7jfIR4haeM6oXSGiNXCRPFWGguc/view?usp=sharing)
+[Enlace del Escenario 1 ](https://drive.google.com/file/d/1VCnmM7jfIR4haeM6oXSGiNXCRPFWGguc/view?usp=sharing)
 
 
 ## Caso de uso 2 - Iniciar sesion
@@ -71,7 +71,7 @@ Permite a los usuarios del sistema (pacientes, médicos o administradores) acced
  * **Suposiciones:** Los datos estan correctamente almacenados.
 
 
-![Captura de pantalla 2025-04-13 162811](https://github.com/user-attachments/assets/16a24525-fd11-46f0-9053-4f43db6f5b90)
+[Enlace del Escenario 2](https://drive.google.com/file/d/1cmaKUL86uv34cGcD0cuN_aSajDyxmI76/view?usp=sharing)
 
 
 ## Caso 3: Notificaciones
@@ -110,7 +110,7 @@ Permite a los pacientes registrados en el sistema seleccionar una especialidad m
 
 
 
-![Captura de pantalla 2025-04-12 175413](https://github.com/user-attachments/assets/34505b71-c2bd-4500-8de8-9840ab8a3c05)
+[Enlace del escenario 3 ](https://drive.google.com/file/d/1TvR0sfYrRofvJ9rggXB1blPJYSGC5Rwv/view?usp=sharing)
 
 ## Caso de uso 4 - Cancelar Truno Medico
 
@@ -147,10 +147,8 @@ Brinda al paciente la posibilidad de cancelar un turno que ya ha sido reservado,
 * **Poscondiciones:** Turno eliminado del sistema,Agenda liberada
 * **Suposiciones:** El turno no esta dentro del periodo de cancelacion restringida
 
-* [Enlace del Escenario](https://drive.google.com/file/d/1FIO6ylXUcQnJ19nbvHQzxxEdevsmM
-
-
-![Captura de pantalla 2025-04-13 170147](https://github.com/user-attachments/assets/aab045c3-a4ef-4d53-9c1f-88d782c47071)
+                         
+[Enlace del Escenario 4 ](https://drive.google.com/file/d/11sXxGZv0pkePS22bYIedfHZbN-47HeE2/view?usp=sharing)
 
 
 ## Caso de uso 5 - Notificar recordatorio de turno 
@@ -187,10 +185,9 @@ Funcionalidad automatizada del sistema que se encarga de enviar notificaciones r
 * **Poscondiciones:** Notificacion enviada
 * **Suposiciones:** El servicio de mensajeria funciona correctamente
 
-* [Enlace del Escenario](https://drive.google.com/file/d/1e-lRHBjN39gb
 
 
-![Captura de pantalla 2025-04-14 203006](https://github.com/user-attachments/assets/a2079f53-a2ff-4534-80c3-0e514dd14a81)
+[Enlace del Escenario 5 ](https://drive.google.com/file/d/1t9Hojt66-Qqp2XKX8RhndOqm39ZOCXC6/view?usp=sharing)
 
 
 
