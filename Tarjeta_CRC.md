@@ -68,9 +68,9 @@ Me encargo de la gestión de la agenda. Registro nuevos pacientes.organizo turno
 **Responsabilidades:** Registrar nuevos pacientes en el sistema,Asignar turnos a pacientes,Cancelar o reprogramar turnos,Consultar agenda de médicos,Consultar los datos o actualizar de un paciente.
 
 
-**Colaboradores:** Paciente,Turno,Agenda,Médico,recepcionista
+**Colaboradores:** Paciente ,Turno , Agenda, Médico , recepcionista
 
-**Propiedad**:nombre,apellido,dni,email,telefono,direccion
+**Propiedad**:Nombre , apellido, dni , email ,telefono , direccion
 
 
 
@@ -116,7 +116,7 @@ Me encargo de la gestión de la agenda. Registro nuevos pacientes.organizo turno
 
 **Colaboradores:** Médico, Turno, Paciente
 
-**Propiedad:** fechaInicio, fechaFin, medicoId, listaTurnos,turno.
+**Propiedad:** fecha  Inicio  , fecha Fin, medicoId, listaTurnos,turno.
 
 
 ![tarjetaCRC Agenda](https://github.com/user-attachments/assets/0f2574d4-c5f5-436e-acea-83e417787dd0)
