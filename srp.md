@@ -22,3 +22,27 @@ Imaginemos una tienda donde un solo empleado se encarga de todo: atender a los c
 Si hay un cambio en el sistema de ventas, todo su trabajo se ve afectado. Además, si comete un error, no es fácil saber en qué parte de su trabajo ocurrió. En cambio, si cada tarea está asignada a una persona distinta (uno para las ventas, otro para el inventario, otro para la limpieza), el trabajo es mucho más organizado, especializado y eficiente. 
 Cada empleado se enfoca en una tarea específica, lo que permite que cualquier cambio se implemente de manera más controlada y sin complicaciones.
 
+
+
+
+
+
+## Estructuras de Clases 
+
+![Solid(SRP)](https://github.com/user-attachments/assets/c2500381-d78d-46d7-ab0b-18cccc0eb7a9)
+
+[Estructura de Clases](https://drive.google.com/file/d/1Nk84bHqLgRxeM7SRluQu1j2AHNx_4jye/view?usp=sharing)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
