@@ -1,55 +1,74 @@
-# Escenario de Caso de Uso 
+# Escenarios de Casos de Uso
 
-## Caso 1 : Consulta de turnos
-
-### Descripcion general
-
- - Permite al usuario visualizar los turnos solicitados.
-
-### Flujo principal de eventos
-
-  - El usuario ingresa al sistema.
-
-  - El usuario se dirige a "Consultar turnos".
-
-  - El sistema muestra el historial de turnos del usuario.
-
-
-### Precondiciones
-
- - El usuario debe estar registrado y autenticado en el sistema.
-
-### Postcondiciones
-
- - El sistema muestra una lista de los turnos programados del usuario.
- - Se registra la consulta en el historial de actividades del usuario.
-
-![Captura de pantalla 2025-04-13 161623](https://github.com/user-attachments/assets/8e824b00-6e14-49b4-8713-b5076364e00e)
-
-
-## Caso 2 : Solicitar Turno
+## Caso de uso 1 - Registrar nuevo paciente
 
 ### Descripcion general
 
- - Permite al usuario solicitar turnos .
+Permite que un nuevo usuario se registre en el sistema proporcionando sus datos personales y de contacto. Una vez registrado, el paciente obtiene acceso a todas las funcionalidades del sistema, como solicitar turnos, consultar historial, y recibir notificaciones. Este proceso puede incluir validaciones como verificación de correo y control de duplicidad de datos (correo o documento).
+
+## Flujo de eventos
+### Pasos Desempeñados (ruta principal)
+
+1.El usuario accede a la opcion "Crear Cuenta" 
+
+ * Desde la página de inicio, el usuario selecciona esta opción.
+
+2.Ingresa sus datos personales y de contacto
+
+ * Completa un formulario con nombre, DNI, correo, dirección, teléfono, etc.
+
+3.El sistema valida los datos
+
+ * El sistema revisa que los campos estén completos y con formato correcto.
+
+4.El sistema comprueba que no exista un usuario con el mismo correo o dni
+
+ * El sistema revisa que los campos estén completos y con formato correcto.
+
+5.El sistema registra al nuevo paciente
+
+ * Si todo está correcto, se guarda la nueva cuenta.
 
 
-### Flujo principal de eventos
- 
- - El usuario accede al sistema.
+### Condiciones
 
- - Selecciona una fecha y un profesional médico disponible.
+* **Precondiciones:** No debe existir una cuenta previo con el mismo correo/DNI
+* **Poscondiciones:** Usuario registrado y habilitado para iniciar sesion
+* **Suposiciones:** El formulario esta correctamente validado.
 
- - Realiza la solicitud del turno.
 
- - El sistema registra y confirma la cita.
+[Enlace del Escenario](https://drive.google.com/file/d/1VCnmM7jfIR4haeM6oXSGiNXCRPFWGguc/view?usp=sharing)
 
-### Precondiciones
 
-- El usuario debe haber iniciado sesión y contar con un método de pago activo.
+## Caso de uso 2 - Iniciar sesion
 
-### Postcondiciones
-La transacción se completa con éxito y el usuario recibe una notificación de confirmación del turno.
+### Descripcion General:
+
+
+Permite a los usuarios del sistema (pacientes, médicos o administradores) acceder a su cuenta mediante un proceso de autenticación. El usuario debe ingresar su nombre de usuario y contraseña válidos para ingresar a su panel correspondiente. Este caso de uso es esencial para asegurar que solo usuarios autorizados accedan a las funcionalidades del sistema.
+
+## Pasos desempeñados(Ruta Principal)
+1.El usuario abre la pagina de login
+
+ * El usuario accede a la plataforma.
+
+2.Ingresa usuario y contraseña
+
+ * Introduce su nombre de usuario y contraseña.
+
+3.El sistema verifica credenciales
+
+ * El sistema compara los datos ingresados con los registrados.
+
+4.Redirige al panel correspondiente
+
+ * El sistema redirige al usuario al menu dependiendo su rol
+
+### Condiciones
+
+ * **Precondiciones:** Usuario debe estar registrado
+ * **Poscondiciones:** acceso permitido o denegado segun resultado
+ * **Suposiciones:** Los datos estan correctamente almacenados.
 
 
 ![Captura de pantalla 2025-04-13 162811](https://github.com/user-attachments/assets/16a24525-fd11-46f0-9053-4f43db6f5b90)
@@ -57,99 +76,118 @@ La transacción se completa con éxito y el usuario recibe una notificación de 
 
 ## Caso 3: Notificaciones
 
-### Descripcion general:
 
- - Cuando el usuario completa el turno , el sistema envía automáticamente una notificación al paciente 
-   confirmando su turno. Esta notificacion del aviso se realiza por correo electrónico e incluye la fecha del turno, 
-   el dia, la hora  y el médico asignado, funcionando como un recordatorio.
+### Descripcion General:
+Permite a los pacientes registrados en el sistema seleccionar una especialidad médica, un profesional de salud y un horario disponible para agendar un turno. El proceso es completamente en línea, y la asignación del turno es inmediata si existe disponibilidad. Esta funcionalidad busca facilitar el acceso a consultas médicas sin necesidad de asistencia presencial o llamadas telefónicas.
+## Pasos desempeñados(Ruta Principal)
+1.El paciente inicia sesion
 
-### Flujo de eventos
+ * El paciente accede al sistema e ingresa su usuario y contraseña.
 
-- El sistema reúne la información correspondiente al turno agendado.
+2.Selecciona "Solicitar Turno"
 
-- Con base en dicha información, genera un correo electrónico que contiene los datos relevantes de la cita.
+ * Desde el menú principal, selecciona la opción correspondiente.
 
-- Finalmente, el sistema envía automáticamente la notificación al correo electrónico del usuario.
+3.Elige la especialidad del medico requerido
 
+ * El sistema despliega un listado actualizado de especialidades médicas disponibles.
 
-### Precondiciones
+4.Selecciona Medico
 
-- El usuario debe encontrarse previamente registrado en el sistema.
+ * El sistema filtra y muestra los profesionales que atienden esa especialidad.
 
-- Es requisito que haya proporcionado un medio de contacto válido, ya sea una dirección de correo electrónico, número 
-  telefónico u otro canal habilitado.
+5.Selecciona fecha y horario
 
-- El turno debe estar debidamente programado y contar con la confirmación correspondiente.
+ * El paciente elige cuándo desea ser atendido.
 
+6.El sistema confirma y registra el turno
 
-### Postcondiciones 
+ * Si todo es correcto, el sistema guarda el turno y lo asigna al paciente.
+### Condiciones
+* **Precondiciones:** Usuario registrado e identificado,Agenda del medico disponible
+* **Poscondiciones:** Turno asignado y confirmado
+* **Suposiciones:** El sistema tiene conexion estable con la base de datos de turno
 
-- El usuario recibe una notificación informándole acerca de su turno programado.
-
-- La fecha y hora en la que se emite dicha notificación quedan registradas automáticamente en el sistema.
 
 
 ![Captura de pantalla 2025-04-12 175413](https://github.com/user-attachments/assets/34505b71-c2bd-4500-8de8-9840ab8a3c05)
 
+## Caso de uso 4 - Cancelar Truno Medico
 
-## Caso 4 : Modificacion de Turnos 
+### Descripcion General:
 
-### Descripcion general
 
- - El usuario puede realizar cambios en el turno pedido ingresando al sistema y dirigiendose a "Modificar turno".
+Brinda al paciente la posibilidad de cancelar un turno que ya ha sido reservado, siempre que esté dentro del plazo permitido por la institución médica. Esta opción permite liberar espacios en la agenda médica, favoreciendo la reprogramación de otros pacientes y optimizando el uso del tiempo profesional.
 
-### Flujo de eventos
+## Pasos desempeñados(Ruta Principal)
 
- - El usuario ingresa a sistema.
+1.El paciente inicia sesion
 
- - El usuario se dirige a "Modificar turno".
+ * El paciente accede a su cuenta personal.
 
- - El sistema analiza posibles modificaciones dentro de los cuales se encuentran el dia, la fecha, hora y el medico.
+2.Ingresa a "Mis Turnos"
 
- - El sistema recibe la informacion del usuario y modifica el turno guardado.
+ * Desde el menú principal, elige la sección donde visualiza sus turnos agendados.
 
-### Precondiciones
+3.Selecciona un turno vigente
 
- - El usuario debe estar registrado y autenticado en el sistema.
- - El turno original debe estar confirmado y no debe estar dentro del período de cancelación.
- - El nuevo turno solicitado debe estar disponible.
+ * El paciente identifica el turno que desea cancelar y lo selecciona.
 
-### Postcondiciones
+4.Confirma la cancelacion
 
- - El turno original se actualiza con la nueva información.
- - Se envía una notificación al usuario confirmando el cambio de turno.
- - Se registra el cambio en el historial de turnos del usuario.
+ * El sistema solicita una confirmación para evitar errores.
+
+5.El sistema elimina el turno y actualiza la agenda
+
+ * El sistema elimina el turno y libera el horario en la agenda del médico.
+
+### Condiciones
+
+* **Precondiciones:** El turno debe existir y ser cancelable (no vencido)
+* **Poscondiciones:** Turno eliminado del sistema,Agenda liberada
+* **Suposiciones:** El turno no esta dentro del periodo de cancelacion restringida
+
+* [Enlace del Escenario](https://drive.google.com/file/d/1FIO6ylXUcQnJ19nbvHQzxxEdevsmM
 
 
 ![Captura de pantalla 2025-04-13 170147](https://github.com/user-attachments/assets/aab045c3-a4ef-4d53-9c1f-88d782c47071)
 
 
-## Caso 5: Cancelar turno
+## Caso de uso 5 - Notificar recordatorio de turno 
 
-### Descripcion general
+Funcionalidad automatizada del sistema que se encarga de enviar notificaciones recordatorias a los pacientes con turnos programados en las siguientes 24 o 48 horas. Este recordatorio puede enviarse vía correo electrónico o mensaje SMS, ayudando a reducir el ausentismo y mejorando la eficiencia operativa del centro de salud.
+## Pasos desempeñados(Ruta Principal)
+1.El sistema ejecuta una tarea programada
 
- - Permite al usuario cancelar un turno ya solicitado .
- 
-### Flujo de eventos 
+ * El sistema ejecuta automáticamente una función diaria
 
- - El usuario ingresa al sistema.
+2.Consulta la base de datos de turnos
 
- - El usuario se dirige a "Cancelar turno".
+ * accede a los turnos del dia siguiente
 
- - El usuario cancela el turno previamente solicitado.
+3.Identifica turnos programados dentro de las proximas 24-48 horas.
 
-### Precondiciones
+ * Revisa los turnos programados para las próximas 24 a 48 horas.
 
- - El usuario debe estar registrado y verificado en el sistema.
- - El turno debe estar confirmado y dentro del período de cancelación permitido.
+4.Verifica que el paciente tenga datos de contactos validos
 
+ * Se asegura de que el paciente tenga un correo o número válido.
 
-### Postcondiciones
+5.Genera el contenido del mensaje recordatorio
 
- - El turno se marca como cancelado en el sistema.
- - Se envía una notificación al usuario confirmando la cancelación.
- - Se actualiza la disponibilidad del turno en el sistema.
+ * El sistema arma el contenido con nombre del médico, especialidad, fecha y hora.
 
+6.Envia la notificacion por el medio configurado(correo/sms)
+
+ * Se envía por los canales configurados (correo electrónico,SMS).
+
+### Condiciones
+
+* **Precondiciones:** Turno registrado y datos de contacto disponible
+* **Poscondiciones:** Notificacion enviada
+* **Suposiciones:** El servicio de mensajeria funciona correctamente
+
+* [Enlace del Escenario](https://drive.google.com/file/d/1e-lRHBjN39gb
 
 
 ![Captura de pantalla 2025-04-14 203006](https://github.com/user-attachments/assets/a2079f53-a2ff-4534-80c3-0e514dd14a81)
