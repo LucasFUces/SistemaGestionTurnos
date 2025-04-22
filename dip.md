@@ -18,7 +18,8 @@ Por ejemplo, en lugar de que el sistema de turnos dependiera de un servicio espe
 Esto permitió cambiar o reemplazar el sistema de notificación sin alterar el resto del sistema. El código de alto nivel se desacopló de los detalles de implementación, lo que hizo el sistema más flexible, fácil de probar y mantener a largo plazo.
 
 
-Ejemplo del mundo real
+Ejemplo del mundo real :
+
 Imaginemos que un restaurante tiene una aplicación para gestionar pedidos en línea. La aplicación está directamente conectada a un sistema de pago específico, como una pasarela de pagos.
 Si el restaurante decide cambiar de proveedor de pagos, tendría que modificar toda la aplicación para adaptarse a las nuevas herramientas del nuevo proveedor.
 Sin embargo, si la aplicación estuviera diseñada para depender de una interfaz común de pago (en lugar de depender de un proveedor específico), solo necesitarían cambiar la implementación del sistema de pago sin tocar el resto de la aplicación. Esto haría que la app sea más flexible y fácil de actualizar, reduciendo el riesgo de errores al modificar solo una pequeña parte del sistema.
