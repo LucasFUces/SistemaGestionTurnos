@@ -17,4 +17,4 @@
 
 # [DiagramasUMl](DiagramasUML.md)
 
-# [HerramientasAgile](Herramientas_Agile.md)
+# [HerramientasAgile](Tarjeta_CRC.md)
