@@ -10,6 +10,6 @@ A continuación, te presento una breve descripción de cada uno de estos princip
 
 *   [Sustitución de Liskov (LSP)](Lsp.MD)
  
-*   [Segregación de Interfaces (ISP)](
+*   [Segregación de Interfaces (ISP)](isp.MD)
  
 *   [Inversión de Dependencias (DIP)](   
