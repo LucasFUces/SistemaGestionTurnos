@@ -50,6 +50,9 @@ Nombre, Apellido, especialidad, matricula, Horarios de Atencion
 
 
 
+![tarjetaCRCSolicitarTurno](https://github.com/user-attachments/assets/61ec3448-bd00-4e45-a04e-79ab3aa0f243)
+
+
 
 ### Tarjeta CRC: Recepcionista
 
@@ -72,6 +75,7 @@ Me encargo de la gestión de la agenda. Registro nuevos pacientes.organizo turno
 
 
 
+![tarjetaCRC Recepcionista](https://github.com/user-attachments/assets/64459348-eb0b-4a35-9ffe-eb4c7e313eb5)
 
 
 
@@ -94,6 +98,7 @@ Me encargo de la gestión de la agenda. Registro nuevos pacientes.organizo turno
 
 
 
+![tarjetaCRC Turno](https://github.com/user-attachments/assets/8db7395b-e586-4669-a8d3-441a1b7a811c)
 
 
 
@@ -113,6 +118,8 @@ Me encargo de la gestión de la agenda. Registro nuevos pacientes.organizo turno
 
 **Propiedad:** fechaInicio, fechaFin, medicoId, listaTurnos,turno.
 
+
+![tarjetaCRC Agenda](https://github.com/user-attachments/assets/0f2574d4-c5f5-436e-acea-83e417787dd0)
 
 
 
