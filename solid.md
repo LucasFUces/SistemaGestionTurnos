@@ -4,4 +4,12 @@ Los principios SOLID son un conjunto de cinco directrices de diseño en programa
 A continuación, te presento una breve descripción de cada uno de estos principios.
 
 
-* [Responsabilidad Única (SRP)](
+* [Responsabilidad Única (SRP)](srp.md)
+
+*  [Abierto/Cerrado (OCP)](
+
+*   [Sustitución de Liskov (LSP)](
+ 
+*   [Segregación de Interfaces (ISP)]
+ 
+*   [Inversión de Dependencias (DIP)]   
