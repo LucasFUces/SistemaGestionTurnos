@@ -31,7 +31,7 @@ Cada empleado se enfoca en una tarea específica, lo que permite que cualquier c
 
 ![Solid(SRP)](https://github.com/user-attachments/assets/c2500381-d78d-46d7-ab0b-18cccc0eb7a9)
 
-[Estructura de Clases](https://drive.google.com/file/d/1Nk84bHqLgRxeM7SRluQu1j2AHNx_4jye/view?usp=sharing)
+[SRP](https://drive.google.com/file/d/1Nk84bHqLgRxeM7SRluQu1j2AHNx_4jye/view?usp=sharing)
 
 
 
