@@ -167,7 +167,7 @@ Nombre, Apellido, especialidad, matricula, Horarios de Atencion
 ![tarjetaCRC Agenda](https://github.com/user-attachments/assets/0f2574d4-c5f5-436e-acea-83e417787dd0)
 
 
-* [Tarjetas CRC](https://docs.google.com/document/d/1KaZnrk2-jXOl4n0CrMhiAGVzbBq5rXTEcs4PPH6NeO8/edit?usp=sharing)
+* [Tarjetas CRC](https://drive.google.com/file/d/1-v56qhBUXedOvlDTKpOWtvemK1tGdsSY/view?usp=sharing)
    
 
 
