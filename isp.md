@@ -24,6 +24,9 @@ En cambio, si solo recibe la información que le corresponde, puede trabajar de 
 
 ## Estructura de Clases
 
+![SOLIDisp jpeg](https://github.com/user-attachments/assets/5a35e953-bc29-4810-bb3c-4e539bc01236)
+
+
 
 
 
