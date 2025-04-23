@@ -22,12 +22,9 @@ En cambio, si solo recibe la información que le corresponde, puede trabajar de 
 
 
 
-
-
-
 ## Estructura de Clases
 
-![SolidISP]( 
+
 
 
 
