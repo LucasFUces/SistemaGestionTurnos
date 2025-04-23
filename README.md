@@ -13,8 +13,8 @@
 
 # Diagrama y Diseños  
 
-# [Anexos](anexos.md)
+* [Anexos](anexos.md)
 
-# [DiagramasUMl](diagramasUML.md)
+* [DiagramasUMl](diagramasUML.md)
 
-# [HerramientasAgile](Tarjeta_CRC.md)
+* [HerramientasAgile](Tarjeta_CRC.md)
