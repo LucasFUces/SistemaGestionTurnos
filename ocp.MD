@@ -20,3 +20,7 @@ Ejemplo cotidiano:
 Imaginá un sistema de iluminación de una casa que viene con interruptores fijos para cada lámpara. Si querés agregar una lámpara nueva y tenés que rehacer toda la instalación, el sistema es rígido.
 Pero si está pensado con enchufes o conexiones modulares, podés sumar luces nuevas sin modificar lo que ya está —solo enchufás y listo. Eso mismo busca este principio: que lo nuevo se integre sin romper lo que ya existe.
 
+
+
+
+
