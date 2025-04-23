@@ -6,10 +6,10 @@ A continuación, te presento una breve descripción de cada uno de estos princip
 
 *   [Responsabilidad Única (SRP)](srp.md)
 
-*   [Abierto/Cerrado (OCP)](ocp.MD)
+*   [Abierto/Cerrado (OCP)](ocp.md)
 
-*   [Sustitución de Liskov (LSP)](Lsp.MD)
+*   [Sustitución de Liskov (LSP)](lsp.md)
  
-*   [Segregación de Interfaces (ISP)](isp.MD)
+*   [Segregación de Interfaces (ISP)](isp.md)
  
 *   [Inversión de Dependencias (DIP)](dip.md) 
