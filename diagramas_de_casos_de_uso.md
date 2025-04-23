@@ -47,7 +47,7 @@ Una vez que el paciente es atendido, el médico registra en el sistema las obser
  ![Caso de Uso (5)](https://github.com/user-attachments/assets/f4b42ffc-0ecc-412c-91ad-a99a942ccdea)
 
 
- [Registrar atencion medica]( https://drive.google.com/file/d/1plu4b89nxBPJWOyjnpaaOk1gV23zkiCZ/view?usp=sharing)
+ [Registro de atencion medica]( https://drive.google.com/file/d/1plu4b89nxBPJWOyjnpaaOk1gV23zkiCZ/view?usp=sharing)
 
 
 
