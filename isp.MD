@@ -19,3 +19,16 @@ Ejemplo del mundo real:
 Imaginá que una recepcionista solo necesita una lista con los nombres de los pacientes del día y sus horarios. Pero en vez de eso, le entregan un archivo enorme con historiales médicos completos, reportes administrativos y datos contables. No solo es innecesario, sino que hace su trabajo más difícil y aumenta las chances de cometer errores.
 
 En cambio, si solo recibe la información que le corresponde, puede trabajar de forma más rápida, clara y segura. Ese es justamente el objetivo del principio de segregación de interfaces: que cada parte del sistema acceda solo a lo que realmente necesita.
+
+
+
+
+
+
+## Estructura de Clases
+
+![SolidISP](
+
+
+
+
