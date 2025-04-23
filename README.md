@@ -15,6 +15,6 @@
 
 * [Anexos](anexos.md)
 
-* [DiagramasUMl](diagramasUML.md)
+* [DiagramasUMl](diagramasuml.md)
 
-* [HerramientasAgile](Tarjeta_CRC.md)
+* [HerramientasAgile](tarjeta_crc.md)
