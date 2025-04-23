@@ -18,5 +18,14 @@ El principio de sustitución de Liskov dice que una subclase debe poder reemplaz
 
 La solución fue redefinir claramente qué acciones puede realizar cada tipo de usuario. Así, cada uno cumple solo con sus responsabilidades, lo que hace el sistema más claro, seguro y fácil de mantener.
 
-Ejemplo real
-Es como en una empresa: no todos los empleados deben tener acceso al laboratorio. Si se asignan permisos según el rol desde el inicio, no hace falta controlar cada caso especial.
+Ejemplo real :
+Es como en una empresa, no todos los empleados deben tener acceso al laboratorio. Si se asignan permisos según el rol desde el inicio, no hace falta controlar cada caso especial.
+
+
+![SolidLSP](https://github.com/user-attachments/assets/d5105b4a-a9ca-4a93-a3cf-78b6fb5cffef)
+
+[Estructura de clases](https://drive.google.com/file/d/1n7wMSVBRR-60KryNBG9NTrlfk4r99Myr/view?usp=sharing)
+
+
+
+
