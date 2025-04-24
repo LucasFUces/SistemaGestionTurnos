@@ -24,10 +24,10 @@ Permite a los usuarios registrados acceder al sistema utilizando sus credenciale
 ### Diagrama de Casos de Uso 3:Solicitar Turno Medico
 Permite al paciente (o al recepcionista en su nombre) seleccionar un médico, una especialidad y una fecha para agendar un turno. El sistema muestra los horarios disponibles y confirma la reserva del turno.
 
-![Caso de Uso (3)](https://github.com/user-attachments/assets/14e4bb1f-df59-400f-8cb3-07f4254498d9)
+![Caso de Uso (3)](https://github.com/user-attachments/assets/3b780c5b-f26f-496a-8049-7e7cf70e987e)
 
-[Solicitar turno medico](https://drive.google.com/file/d/1plu4b89nxBPJWOyjnpaaOk1gV23zkiCZ/view?usp=sharing)
 
+[Solicitar turno medico](https://drive.google.com/file/d/1q-w_7s-xynpKLamzWz2BJ-PYIte2Vr9M/view?usp=sharing)
 
 
 
