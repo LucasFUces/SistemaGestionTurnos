@@ -14,10 +14,10 @@ Este caso de uso permite ingresar al sistema los datos personales de un nuevo pa
 ### Diagrama de Casos de Uso 2: Iniciar sesion en el sistema
 Permite a los usuarios registrados acceder al sistema utilizando sus credenciales, para utilizar las funciones correspondientes a su perfil (pedir turno, consultar agenda, etc.)
 
-![Caso de Uso (2)](https://github.com/user-attachments/assets/08bdada9-34a7-4f0d-b230-8b6801ae4021)
+![Caso de Uso (2)](https://github.com/user-attachments/files/19879149/casouso2.pdf)
 
-[Iniciar sesion en el sistema](https://drive.google.com/file/d/1plu4b89nxBPJWOyjnpaaOk1gV23zkiCZ/view?usp=sharing)
 
+[Iniciar sesion en el sistema](https://drive.google.com/file/d/1PzclXC4D1TJs226JAydbi3NEivlPcCGB/view?usp=sharing)
 
 
 
