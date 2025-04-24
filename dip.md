@@ -23,3 +23,12 @@ Ejemplo del mundo real :
 Imaginemos que un restaurante tiene una aplicación para gestionar pedidos en línea. La aplicación está directamente conectada a un sistema de pago específico, como una pasarela de pagos.
 Si el restaurante decide cambiar de proveedor de pagos, tendría que modificar toda la aplicación para adaptarse a las nuevas herramientas del nuevo proveedor.
 Sin embargo, si la aplicación estuviera diseñada para depender de una interfaz común de pago (en lugar de depender de un proveedor específico), solo necesitarían cambiar la implementación del sistema de pago sin tocar el resto de la aplicación. Esto haría que la app sea más flexible y fácil de actualizar, reduciendo el riesgo de errores al modificar solo una pequeña parte del sistema.
+
+
+![DiagramaDIP](https://github.com/user-attachments/assets/22cd8656-f127-4447-b8b0-73fa7b3a8ca6)
+
+
+[Estructura de Clase](https://drive.google.com/file/d/1OkqOOsWEoaBLqdxGWptLXlnfEypCEWBA/view?usp=sharing)
+
+
+
