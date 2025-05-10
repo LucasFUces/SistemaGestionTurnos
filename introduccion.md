@@ -108,13 +108,13 @@ La herencia permite que una entidad herede características de otra.
 
 - Actores : Paciente, Recepcionista
 
-  Primer paso) El paciente se comunica con el centro de salud para registrarse 
-  Segundo paso) La recepcionista ingresa al sistema en la seccion "Registrar paciente"
-  Tercer paso ) La recepcionista le consulta los datos al paciente 
-  Cuarto paso) El paciente le brinda los datos solicitados
-  Quinto paso) La recepcionista los carga en el sistema
-  Sexto paso) El sistema registro un nuevo paciente
-  Septimo paso) Se genero idPaciente de manera exitosa 
+  Primer paso) El paciente se comunica con el centro de salud para registrarse  
+  Segundo paso) La recepcionista ingresa al sistema en la seccion "Registrar paciente"  
+  Tercer paso ) La recepcionista le consulta los datos al paciente   
+  Cuarto paso) El paciente le brinda los datos solicitados  
+  Quinto paso) La recepcionista los carga en el sistema  
+  Sexto paso) El sistema registro un nuevo paciente  
+  Septimo paso) Se genero idPaciente de manera exitosa   
 
   
 ### Consulta de turnos
@@ -132,13 +132,13 @@ La herencia permite que una entidad herede características de otra.
 
 - Actores : Paciente
 
-- Flujo principal de eventos:
-  Primer paso) El paciente accede a la pagina del centro de salud 
-  Segundo paso) El paciente se dirige a la seccion de pacientes
-  Tercer paso) El paciente se loguea y pone sus datos de ingreso
-  Cuarto paso) Se dirige a la seccion consultar turnos
-  Quinto paso) Consulta los turno disponibles
-  Sexto paso) El paciente cierra su sesion 
+- Flujo principal de eventos: 
+  Primer paso) El paciente accede a la pagina del centro de salud  
+  Segundo paso) El paciente se dirige a la seccion de pacientes 
+  Tercer paso) El paciente se loguea y pone sus datos de ingreso 
+  Cuarto paso) Se dirige a la seccion consultar turnos 
+  Quinto paso) Consulta los turno disponibles 
+  Sexto paso) El paciente cierra su sesion  
 
 
 ### Solicitud de turno
@@ -160,16 +160,16 @@ La herencia permite que una entidad herede características de otra.
 
 - Actores  : Paciente y Recepcionista
 
-- Flujo principal de eventos: 
-Primer paso) El paciente se comunica con el centro para solicitar un turno
-Segundo paso) La recepcionista le consulta con que medico quisiera antenderse 
-Tercer paso) El paciente le indica con que medico desea y el motivo de la solicitud
-Cuarto paso) La recepcionista le informa al paciente los turnos disponibles 
- Quinto paso) El paciente no acepta el turno y solicita otra fecha 
- Sexto paso) La recepcionista le indica otra fecha y horario disponible
-Septimo paso) El paciente acepta el turno disponible
-Octavo paso) La recepcionista le pide los datos al paciente
-Noveno paso) El turno fue registrado correctamente
+- Flujo principal de eventos:  
+Primer paso) El paciente se comunica con el centro para solicitar un turno  
+Segundo paso) La recepcionista le consulta con que medico quisiera antenderse   
+Tercer paso) El paciente le indica con que medico desea y el motivo de la solicitud   
+Cuarto paso) La recepcionista le informa al paciente los turnos disponibles   
+ Quinto paso) El paciente no acepta el turno y solicita otra fecha   
+ Sexto paso) La recepcionista le indica otra fecha y horario disponible  
+Septimo paso) El paciente acepta el turno disponible  
+Octavo paso) La recepcionista le pide los datos al paciente  
+Noveno paso) El turno fue registrado correctamente  
 
 ### Notificación de turnos
 
@@ -188,17 +188,17 @@ Noveno paso) El turno fue registrado correctamente
 
 
 - Actores  : Medico, Paciente, Recepcionista y Sistema 
-- Flujo principal de eventos:
+- Flujo principal de eventos: 
 
-Primer paso) El paciente solicito un turno 
-Segundo paso) La recepcionista le consulta al medico la disponibilidad 
-Tercer paso) El paciente le indico la especialidad que requeria 
-Cuarto paso) La recepcionista le consulto al medico disponibilidad
-Quinto paso) El medico informo su disponibilidad 
-Sexto paso ) La recepcionista le comunico al paciente
-Septimo paso) El paciente acepto el turno 
-Octavo paso) La recepcionista lo agendo correctamente 
-Noveno paso) El sistema le envia la notificacion a los actores confirmando el turno
+Primer paso) El paciente solicito un turno  
+Segundo paso) La recepcionista le consulta al medico la disponibilidad  
+Tercer paso) El paciente le indico la especialidad que requeria  
+Cuarto paso) La recepcionista le consulto al medico disponibilidad 
+Quinto paso) El medico informo su disponibilidad  
+Sexto paso ) La recepcionista le comunico al paciente 
+Septimo paso) El paciente acepto el turno  
+Octavo paso) La recepcionista lo agendo correctamente  
+Noveno paso) El sistema le envia la notificacion a los actores confirmando el turno 
 
 
 
@@ -219,15 +219,15 @@ Noveno paso) El sistema le envia la notificacion a los actores confirmando el tu
 
 - Actores : Paciente y Recepcionista
 
-- Flujo principal de eventos:
-Primer Paso) El paciente se comunica con el centro para cancelar turno
-Segundo Paso) La recepcionista le consulta el turno que debe cancelar 
-Tercer paso) El paciente le indica el turno a cancelar
-Cuarto paso) La recepcionista accede al registro del paciente
-Quinto paso) La recepcionista selecciona el turno a cancelar
-Sexto paso) El turno fue cancelado correctamente
-Septimo paso) La recepcionista informa al paciente que el turno fue cancelado correctamente 
-Octavo paso) El sistema le informa al medico que el turno fue cancelado
+- Flujo principal de eventos:  
+Primer Paso) El paciente se comunica con el centro para cancelar turno  
+Segundo Paso) La recepcionista le consulta el turno que debe cancelar   
+Tercer paso) El paciente le indica el turno a cancelar  
+Cuarto paso) La recepcionista accede al registro del paciente  
+Quinto paso) La recepcionista selecciona el turno a cancelar  
+Sexto paso) El turno fue cancelado correctamente  
+Septimo paso) La recepcionista informa al paciente que el turno fue cancelado correctamente   
+Octavo paso) El sistema le informa al medico que el turno fue cancelado  
 
 ## Boceto Inicial del Diseño de Clases
 
