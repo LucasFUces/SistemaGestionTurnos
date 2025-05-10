@@ -90,7 +90,7 @@ La herencia permite que una entidad herede características de otra.
 - Control de acceso:Solo usuarios registrados pueden acceder a ciertas funciones.
 
 
-# Desarrollar cinco casos de uso con el formato
+# Casos de Uso 
   
   
 ## Consulta de turnos
