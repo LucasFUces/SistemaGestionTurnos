@@ -92,8 +92,32 @@ La herencia permite que una entidad herede características de otra.
 
 # Casos de Uso 
   
+### Registrar Paciente
+
+- Descripción:
+
+  El paciente puede cambiar la fecha u hora de un turno previamente solicitado, siempre que haya disponibilidad.
+
+- Precondiciones:
+
+  El paciente no se encuentre registrado en el sistema 
+
+- Postcondiciones:
+
+  El paciente se registro de manera exitosa 
+
+- Actores : Paciente, Recepcionista
+
+  Primer paso) El paciente se comunica con el centro de salud para registrarse 
+  Segundo paso) La recepcionista ingresa al sistema en la seccion "Registrar paciente"
+  Tercer paso ) La recepcionista le consulta los datos al paciente 
+  Cuarto paso) El paciente le brinda los datos solicitados
+  Quinto paso) La recepcionista los carga en el sistema
+  Sexto paso) El sistema registro un nuevo paciente
+  Septimo paso) Se genero idPaciente de manera exitosa 
+
   
-## Consulta de turnos
+### Consulta de turnos
 
 -  Descripción:
    El paciente puede ver los turnos que tiene registrados, ya sea próximos o pasados.
@@ -106,8 +130,18 @@ La herencia permite que una entidad herede características de otra.
 
    Se muestra la información de los turnos asociados al paciente.
 
+- Actores : Paciente
 
-## Solicitud de turno
+- Flujo principal de eventos:
+  Primer paso) El paciente accede a la pagina del centro de salud 
+  Segundo paso) El paciente se dirige a la seccion de pacientes
+  Tercer paso) El paciente se loguea y pone sus datos de ingreso
+  Cuarto paso) Se dirige a la seccion consultar turnos
+  Quinto paso) Consulta los turno disponibles
+  Sexto paso) El paciente cierra su sesion 
+
+
+### Solicitud de turno
 
 
 - Descripción:
@@ -118,14 +152,24 @@ La herencia permite que una entidad herede características de otra.
 
   El paciente debe estar registrado e iniciar sesión en el sistema.
 
-  Deben existir médicos disponibles con horarios habilitados.
 
 - Postcondiciones:
 
   Se registra un nuevo turno en el sistema.
 
-  El paciente recibe una confirmación del turno solicitado.
 
+- Actores  : Paciente y Recepcionista
+
+- Flujo principal de eventos: 
+Primer paso) El paciente se comunica con el centro para solicitar un turno
+Segundo paso) La recepcionista le consulta con que medico quisiera antenderse 
+Tercer paso) El paciente le indica con que medico desea y el motivo de la solicitud
+Cuarto paso) La recepcionista le informa al paciente los turnos disponibles 
+ Quinto paso) El paciente no acepta el turno y solicita otra fecha 
+ Sexto paso) La recepcionista le indica otra fecha y horario disponible
+Septimo paso) El paciente acepta el turno disponible
+Octavo paso) La recepcionista le pide los datos al paciente
+Noveno paso) El turno fue registrado correctamente
 
 ### Notificación de turnos
 
@@ -137,33 +181,26 @@ La herencia permite que una entidad herede características de otra.
 
   El paciente debe tener un turno registrado en el sistema.
 
-  Debe haber un medio de contacto disponible (correo electrónico, SMS, etc.).
 
 - Postcondiciones:
 
   El paciente es notificado del turno.
 
-  Se registra que la notificación fue enviada.
- 
-### Registrar Paciente
 
-- Descripción:
+- Actores  : Medico, Paciente, Recepcionista y Sistema 
+- Flujo principal de eventos:
 
-  El paciente puede cambiar la fecha u hora de un turno previamente solicitado, siempre que haya disponibilidad.
+Primer paso) El paciente solicito un turno 
+Segundo paso) La recepcionista le consulta al medico la disponibilidad 
+Tercer paso) El paciente le indico la especialidad que requeria 
+Cuarto paso) La recepcionista le consulto al medico disponibilidad
+Quinto paso) El medico informo su disponibilidad 
+Sexto paso ) La recepcionista le comunico al paciente
+Septimo paso) El paciente acepto el turno 
+Octavo paso) La recepcionista lo agendo correctamente 
+Noveno paso) El sistema le envia la notificacion a los actores confirmando el turno
 
-- Precondiciones:
 
-  El paciente debe haber iniciado sesión.
-
-  El turno debe estar activo y no haber pasado aún.
-
-  Debe haber disponibilidad en el nuevo horario solicitado.
-
-- Postcondiciones:
-
-  Se actualiza la información del turno en el sistema.
-
-  Se notifica al paciente del cambio realizado.
 
 ### Cancelar turno
 
@@ -173,17 +210,24 @@ La herencia permite que una entidad herede características de otra.
 
 - Precondiciones:
 
-  El paciente debe haber iniciado sesión.
-
   El turno debe estar activo y no haber pasado aún.
 
 - Postcondiciones:
 
   El turno es eliminado del sistema.
 
-  El horario liberado queda disponible para otros pacientes.
 
+- Actores : Paciente y Recepcionista
 
+- Flujo principal de eventos:
+Primer Paso) El paciente se comunica con el centro para cancelar turno
+Segundo Paso) La recepcionista le consulta el turno que debe cancelar 
+Tercer paso) El paciente le indica el turno a cancelar
+Cuarto paso) La recepcionista accede al registro del paciente
+Quinto paso) La recepcionista selecciona el turno a cancelar
+Sexto paso) El turno fue cancelado correctamente
+Septimo paso) La recepcionista informa al paciente que el turno fue cancelado correctamente 
+Octavo paso) El sistema le informa al medico que el turno fue cancelado
 
 ## Boceto Inicial del Diseño de Clases
 
