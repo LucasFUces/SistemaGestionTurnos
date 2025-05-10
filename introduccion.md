@@ -91,7 +91,6 @@ La herencia permite que una entidad herede características de otra.
 
 
 # Desarrollar cinco casos de uso con el formato
-  adecuado:
   
   
 ## Consulta de turnos
@@ -146,7 +145,7 @@ La herencia permite que una entidad herede características de otra.
 
   Se registra que la notificación fue enviada.
  
-### Modificar turno
+### Registrar Paciente
 
 - Descripción:
 
