@@ -87,7 +87,7 @@ La herencia permite que una entidad herede características de otra.
 
 - Historial de turnos: Se debe permitir consultar turnos pasados.
 
--Control de acceso:Solo usuarios registrados pueden acceder a ciertas funciones.
+- Control de acceso:Solo usuarios registrados pueden acceder a ciertas funciones.
 
 
 # Desarrollar cinco casos de uso con el formato
