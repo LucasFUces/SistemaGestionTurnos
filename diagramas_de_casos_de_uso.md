@@ -1,17 +1,18 @@
 ## Diagramas de Casos de Uso
 
 ### Diagrama de Casos de Uso 1: Registrar un nuevo paciente
-Este caso de uso permite ingresar al sistema los datos personales de un nuevo paciente, como nombre, DNI, contacto y obra social. Es esencial para poder luego asignar turnos médicos y llevar un historial clínico.
+
+*  [Caso de Uso 1 - Registrar Paciente](https://drive.google.com/file/d/1plu4b89nxBPJWOyjnpaaOk1gV23zkiCZ/view?usp=sharing)
   
 
 ![Caso de Uso (1)](https://github.com/user-attachments/assets/355bd6eb-829a-4bbf-aa1a-3ef900527de8)
 
-[Registrar nuevo paciente](https://drive.google.com/file/d/1plu4b89nxBPJWOyjnpaaOk1gV23zkiCZ/view?usp=sharing)
 
 
 
 
-### Diagrama de Casos de Uso 2: Iniciar sesion en el sistema
+
+### Diagrama de Casos de Uso 2: Consultar turno 
 Permite a los usuarios registrados acceder al sistema utilizando sus credenciales, para utilizar las funciones correspondientes a su perfil (pedir turno, consultar agenda, etc.)
 
 ![Caso de Uso ](https://github.com/user-attachments/assets/8871f04d-e0cd-4291-8128-461c58d1a96a)
@@ -33,7 +34,7 @@ Permite al paciente (o al recepcionista en su nombre) seleccionar un médico, un
 
 
 
-### Diagrama de Casos de Uso 4:Cancelar Turno
+### Diagrama de Casos de Uso 4: 
 Este caso de uso permite al paciente o al personal administrativo cancelar un turno previamente agendado.
 
  ![Caso de Uso (4)](https://github.com/user-attachments/assets/13336450-726c-48be-8a72-aa9a5ed9f591)
