@@ -107,7 +107,7 @@ La herencia permite que una entidad herede características de otra.
   El paciente se registro de manera exitosa 
 
 - Actores : Paciente, Recepcionista
-
+- Flujo principal de eventos 
   Primer paso) El paciente se comunica con el centro de salud para registrarse  
   Segundo paso) La recepcionista ingresa al sistema en la seccion "Registrar paciente"  
   Tercer paso ) La recepcionista le consulta los datos al paciente   
