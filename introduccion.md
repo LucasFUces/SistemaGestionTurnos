@@ -132,13 +132,13 @@ La herencia permite que una entidad herede características de otra.
 
 - Actores : Paciente
 
-- Flujo principal de eventos: 
-  Primer paso) El paciente accede a la pagina del centro de salud  
-  Segundo paso) El paciente se dirige a la seccion de pacientes 
-  Tercer paso) El paciente se loguea y pone sus datos de ingreso 
-  Cuarto paso) Se dirige a la seccion consultar turnos 
-  Quinto paso) Consulta los turno disponibles 
-  Sexto paso) El paciente cierra su sesion  
+- Flujo principal de eventos:  
+  Primer paso) El paciente accede a la pagina del centro de salud   
+  Segundo paso) El paciente se dirige a la seccion de pacientes  
+  Tercer paso) El paciente se loguea y pone sus datos de ingreso  
+  Cuarto paso) Se dirige a la seccion consultar turnos  
+  Quinto paso) Consulta los turno disponibles   
+  Sexto paso) El paciente cierra su sesion   
 
 
 ### Solicitud de turno
@@ -187,13 +187,18 @@ Noveno paso) El turno fue registrado correctamente
 
 - Actores : Médico 
 
-- Flujo principal de eventos: 
-  Primer paso) El médico accede a la pagina del centro de salud  
-  Segundo paso) El médico se dirige a la seccion de especialista
-  Tercer paso) El médico se loguea y pone sus datos de ingreso 
+- Flujo principal de eventos:  
+  Primer paso) El médico accede a la pagina del centro de salud
+     
+  Segundo paso) El médico se dirige a la seccion de especialidades
+  
+  Tercer paso) El médico se loguea y pone sus datos de ingreso
+  
   Cuarto paso) Se dirige a la seccion consultar agenda
-  Quinto paso) Consulta los turno que posee asignados 
-  Sexto paso) El médico cierra su sesion  
+  
+  Quinto paso) Consulta los turno que posee asignados
+  
+  Sexto paso) El médico cierra su sesion   
 
 
 
