@@ -1,56 +1,42 @@
 ## Diagramas de Casos de Uso
 
-### Diagrama de Casos de Uso 1: Registrar un nuevo paciente
 
-*  [Caso de Uso 1 - Registrar Paciente](https://drive.google.com/file/d/1plu4b89nxBPJWOyjnpaaOk1gV23zkiCZ/view?usp=sharing)
+*  [Caso de Uso 1 - Registrar Paciente](https://drive.google.com/file/d/1xMR3ZO4J7vft2JmovaoNcGsn0Gr5UX_L/view?usp=sharing)
+
   
-
-![Caso de Uso (1)](https://github.com/user-attachments/assets/355bd6eb-829a-4bbf-aa1a-3ef900527de8)
-
-
+  
+![REGISTRAR PACIENTE](https://github.com/user-attachments/assets/c456f730-5ecf-456a-930b-94ed6b06feeb)
 
 
 
 
-### Diagrama de Casos de Uso 2: Consultar turno 
+*  [Caso de Uso 2 - Consulta turno del paciente](https://drive.google.com/file/d/1eUsKZSmHbgwwMt5a2WbpMI99oAqDVC8x/view?usp=sharing)
 
 
-![Caso de Uso ](https://github.com/user-attachments/assets/8871f04d-e0cd-4291-8128-461c58d1a96a)
-
-
-
-[Iniciar sesion en el sistema](https://drive.google.com/file/d/1PzclXC4D1TJs226JAydbi3NEivlPcCGB/view?usp=sharing)
+![Consulta turno paciente](https://github.com/user-attachments/assets/9287afb5-56d7-41ff-9b56-af29f199bd04)
 
 
 
-### Diagrama de Casos de Uso 3:Solicitar Turno Medico
+*  [Caso de Uso 3 - Solicitud de Turno](https://drive.google.com/file/d/1bRovU-WxboUrNEwHTyuIMLQtsHHWwVZ4/view?usp=sharing)
 
 
-![Caso de Uso (3)](https://github.com/user-attachments/assets/3b780c5b-f26f-496a-8049-7e7cf70e987e)
+  ![Solicitar turno](https://github.com/user-attachments/assets/e2a9ac2f-ec18-4072-a3c5-f81402550634)
 
 
-[Solicitar turno medico](https://drive.google.com/file/d/1q-w_7s-xynpKLamzWz2BJ-PYIte2Vr9M/view?usp=sharing)
-
-
-
-
-### Diagrama de Casos de Uso 4: Notificar Turno 
-
- ![Caso de Uso (4)](https://github.com/user-attachments/assets/13336450-726c-48be-8a72-aa9a5ed9f591)
-
-[Cancelar Turno](https://drive.google.com/file/d/1plu4b89nxBPJWOyjnpaaOk1gV23zkiCZ/view?usp=sharing)
+*  [Caso de Uso 4 - Consulta agenda de médico](https://drive.google.com/file/d/1-rw-VoRz1gESe9zXB8WZ-eX3F8Lw5umR/view?usp=sharing)
 
 
 
-### Diagrama de Casos de Uso 5: Cancelar Turno 
+![Consulta agenda médico](https://github.com/user-attachments/assets/b2b5fcf1-f538-4f95-a75d-10d7198da3ad)
 
 
- ![Caso de Uso (5)](https://github.com/user-attachments/assets/f4b42ffc-0ecc-412c-91ad-a99a942ccdea)
 
 
- [Registro de atencion medica]( https://drive.google.com/file/d/1plu4b89nxBPJWOyjnpaaOk1gV23zkiCZ/view?usp=sharing)
+*  [Caso de Uso 5 - Cancelar turno ](https://drive.google.com/file/d/1LhHyuH2M9Fq1ULW1JuDiuAKcrXyTDgpn/view?usp=sharing)
 
 
+  
+![cancelar turno_](https://github.com/user-attachments/assets/f272e848-ec04-4aa8-af81-4be0b4e466c1)
 
 
 
