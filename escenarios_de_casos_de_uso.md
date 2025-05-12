@@ -5,7 +5,7 @@
 
                 
 
-+ Consultar Turno : [Consulta de Turno exitoso](https://drive.google.com/file/d/1cmaKUL86uv34cGcD0cuN_aSajDyxmI76/view?usp=sharing)
++ Consultar Turno Paciente : [Consulta de Turno exitoso](https://drive.google.com/file/d/1cmaKUL86uv34cGcD0cuN_aSajDyxmI76/view?usp=sharing)
 
 
 
@@ -16,19 +16,19 @@
 
 [Enlace del escenario 3 ](https://drive.google.com/file/d/1TvR0sfYrRofvJ9rggXB1blPJYSGC5Rwv/view?usp=sharing)
 
-## Notificacion de turno 
++ Consulta agenda médico 
 
 
 
                          
-[Enlace del Escenario 4 ](https://drive.google.com/file/d/11sXxGZv0pkePS22bYIedfHZbN-47HeE2/view?usp=sharing)
+[Consulta medico exitosa ](https://drive.google.com/file/d/11sXxGZv0pkePS22bYIedfHZbN-47HeE2/view?usp=sharing)
 
 
-## Caso de uso 5 - Notificar recordatorio de turno 
++ Cancelar Turno 
 
 
 
-[Enlace del Escenario 5 ](https://drive.google.com/file/d/1t9Hojt66-Qqp2XKX8RhndOqm39ZOCXC6/view?usp=sharing)
+[Cancelar Turno exitosamente ](https://drive.google.com/file/d/1t9Hojt66-Qqp2XKX8RhndOqm39ZOCXC6/view?usp=sharing)
 
 
 
