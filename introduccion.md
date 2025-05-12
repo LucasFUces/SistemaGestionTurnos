@@ -117,7 +117,7 @@ La herencia permite que una entidad herede características de otra.
   Septimo paso) Se genero idPaciente de manera exitosa   
 
   
-### Consulta de turnos
+### Consulta de turnos del paciente
 
 -  Descripción:
    El paciente puede ver los turnos que tiene registrados, ya sea próximos o pasados.
@@ -171,34 +171,29 @@ Septimo paso) El paciente acepta el turno disponible
 Octavo paso) La recepcionista le pide los datos al paciente  
 Noveno paso) El turno fue registrado correctamente  
 
-### Notificación de turnos
 
+### Consulta de agenda del médico 
 
-- Descripción:
-  El sistema envía notificaciones automáticas a los pacientes para recordarles sus turnos próximos.
+-  Descripción:
+   El medico puede ver los turnos que tiene registrados, ya sea próximos o pasados.
 
-- Precondiciones:
+-  Precondiciones:
 
-  El paciente debe tener un turno registrado en el sistema.
-
+   El medico debe haber iniciado sesión.
 
 - Postcondiciones:
 
-  El paciente es notificado del turno.
+   Se muestra la información de los turnos asociados al médico.
 
+- Actores : Médico 
 
-- Actores  : Medico, Paciente, Recepcionista y Sistema 
 - Flujo principal de eventos: 
-
-Primer paso) El paciente solicito un turno  
-Segundo paso) La recepcionista le consulta al medico la disponibilidad  
-Tercer paso) El paciente le indico la especialidad que requeria  
-Cuarto paso) La recepcionista le consulto al medico disponibilidad 
-Quinto paso) El medico informo su disponibilidad  
-Sexto paso ) La recepcionista le comunico al paciente 
-Septimo paso) El paciente acepto el turno  
-Octavo paso) La recepcionista lo agendo correctamente  
-Noveno paso) El sistema le envia la notificacion a los actores confirmando el turno 
+  Primer paso) El médico accede a la pagina del centro de salud  
+  Segundo paso) El médico se dirige a la seccion de especialista
+  Tercer paso) El médico se loguea y pone sus datos de ingreso 
+  Cuarto paso) Se dirige a la seccion consultar agenda
+  Quinto paso) Consulta los turno que posee asignados 
+  Sexto paso) El médico cierra su sesion  
 
 
 
