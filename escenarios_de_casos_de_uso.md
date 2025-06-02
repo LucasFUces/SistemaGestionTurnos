@@ -9,7 +9,7 @@
 + Solicitar Turno : [Solicitud de Turno exitosa](https://docs.google.com/spreadsheets/d/1JppaNiJZq1j6T8gtQmNvMoM_L4zvigEFMuU8hWyOWjs/edit?gid=1795450939#gid=1795450939)
 
 
-+ Consulta agenda médico : [Consulta agenda medico exitosa ](https://docs.google.com/spreadsheets/d/1JppaNiJZq1j6T8gtQmNvMoM_L4zvigEFMuU8hWyOWjs/edit?usp=sharing)
++ Consulta agenda médico : [Consulta agenda medico exitosa ](https://docs.google.com/spreadsheets/d/1JppaNiJZq1j6T8gtQmNvMoM_L4zvigEFMuU8hWyOWjs/edit?gid=1532635988#gid=1532635988)
    
 
 + Cancelar Turno : [Cancelar Turno exitosamente ](https://docs.google.com/spreadsheets/d/1JppaNiJZq1j6T8gtQmNvMoM_L4zvigEFMuU8hWyOWjs/edit?usp=sharing)
