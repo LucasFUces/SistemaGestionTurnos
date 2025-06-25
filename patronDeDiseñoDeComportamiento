@@ -1,0 +1,17 @@
+# Aplicación del Patrón de Diseño de Comportamiento - Observer
+Los patrones de comportamiento se enfocan en cómo los objetos se comunican y colaboran entre ellos, permitiendo una distribución eficiente de responsabilidades.
+El patrón Observer establece un mecanismo en el que un objeto, llamado sujeto, puede notificar automáticamente a otros objetos, llamados observadores, cada vez que su estado cambia, sin necesidad de conocer en detalle quiénes son esos observadores ni cómo están implementados.
+Este patrón respeta principios de SOLID como el de Responsabilidad Única. 
+Por ejemplo, en nuestro caso, la clase Recepcionista ya no debe encargarse de enviar notificaciones, ya que esa tarea pasa a ser gestionada por los observadores correspondientes.
+La ventaja principal es que distintas partes del sistema pueden reaccionar automáticamente ante determinados eventos —como la creación, cancelación o modificación de un turno— sin necesidad de estar acopladas entre sí. 
+Esto mejora la flexibilidad y la escalabilidad del sistema
+
+
+##Motivación 
+En el sistema actual, acciones como asignar, cancelar o modificar turnos pueden implicar varias operaciones relacionadas entre sí, lo que genera un alto nivel de acoplamiento entre las clases involucradas.
+Para resolver este problema, se implementa el patrón Observer, que permite desacoplar estas operaciones. 
+Se define una interfaz llamada ObservadorTurno, que deberán implementar todas aquellas clases que necesiten reaccionar ante cambios en los turnos. A su vez, se desarrolla la clase GestorTurno, que actúa como el sujeto responsable de la lógica principal de gestión de turnos y de notificar a todos los observadores registrados cuando se produce un cambio.
+Entre los observadores que reaccionan automáticamente a estos eventos se encuentran clases como NotificadorPaciente, ActualizadorAgendaEspecialista y RegistrarHistorial, cada una encargada de una tarea específica frente a la modificación del estado de un turno.
+
+##Estructura de Clases
+
