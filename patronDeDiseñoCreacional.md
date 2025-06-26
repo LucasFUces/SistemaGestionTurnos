@@ -13,7 +13,7 @@ Al utilizar el patrón Singleton, se garantiza que exista una única instancia d
 De este modo, todos los componentes del sistema acceden a un punto común y coordinado, reduciendo el acoplamiento y evitando errores de concurrencia o duplicación.
 Este enfoque es especialmente útil en sistemas donde múltiples usuarios interactúan al mismo tiempo (por ejemplo, una recepcionista y varios médicos).
 
-
+## Estructura de Clases
 ![Singleton](https://drive.google.com/file/d/1FAOxV1BouHRgWNHyYu3o4kwVSGTVHf3t/view?usp=sharing)
 [Singleton](https://github.com/user-attachments/assets/fa8b3530-e5dd-4879-9238-31d7a2a0362d)
 
