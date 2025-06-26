@@ -15,5 +15,7 @@ Este enfoque es especialmente útil en sistemas donde múltiples usuarios intera
 
 ## Estructura de Clases
 ![Singleton](https://drive.google.com/file/d/1FAOxV1BouHRgWNHyYu3o4kwVSGTVHf3t/view?usp=sharing)
-[Singleton](https://github.com/user-attachments/assets/fa8b3530-e5dd-4879-9238-31d7a2a0362d)
+
+
+![Singleton](https://github.com/user-attachments/assets/f7ab52b7-abc8-4878-95c8-db3d680777fd)
 
