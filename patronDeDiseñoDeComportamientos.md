@@ -11,3 +11,6 @@ En el sistema actual, la gestión de turnos involucra múltiples acciones que pu
 Al utilizar el patrón Command, cada operación se encapsula como un objeto independiente (ComandoSolicitarTurno, ComandoCancelarTurno, etc.), lo que permite ejecutar acciones de forma uniforme, registrar las acciones realizadas, y en un futuro implementar funcionalidades como deshacer, rehacer o programar comandos.
 De este modo, el sistema se vuelve más modular, reutilizable y fácil de extender.
 
+## Estructura de Clases
+
+
