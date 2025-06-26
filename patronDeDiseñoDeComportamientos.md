@@ -1,5 +1,5 @@
 
-# Aplicación de Patrón de Diseño de Comportamiento – Command
+ # Aplicación de Patrón de Diseño de Comportamiento – Command
 Los patrones de comportamiento se enfocan en cómo los objetos interactúan y distribuyen la responsabilidad del comportamiento entre sí. El patrón Command encapsula una solicitud como un objeto, permitiendo parametrizar acciones, almacenarlas, deshacerlas o ejecutarlas en distintos momentos.
 
 En nuestro sistema de gestión de turnos, este patrón se aplica para manejar de manera flexible las operaciones de solicitar, modificar o cancelar turnos. Cada una de estas acciones se encapsula dentro de un objeto comando, que conoce cómo ejecutar la acción específica.
@@ -12,5 +12,10 @@ Al utilizar el patrón Command, cada operación se encapsula como un objeto inde
 De este modo, el sistema se vuelve más modular, reutilizable y fácil de extender.
 
 ## Estructura de Clases
+
+![Command](![Command](https://github.com/user-attachments/assets/9d2e6b40-117d-4ca5-a53d-78cfebe4bca4)
+
+
+[Command](https://drive.google.com/file/d/1gZ6TZUsPNhVB-PLYWUq3LEY-6e8dLpeH/view?usp=sharing)
 
 
