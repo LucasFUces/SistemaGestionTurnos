@@ -14,7 +14,9 @@ De este modo, todos los componentes del sistema acceden a un punto común y coor
 Este enfoque es especialmente útil en sistemas donde múltiples usuarios interactúan al mismo tiempo (por ejemplo, una recepcionista y varios médicos).
 
 ## Estructura de Clases
-![Singleton](https://drive.google.com/file/d/1FAOxV1BouHRgWNHyYu3o4kwVSGTVHf3t/view?usp=sharing)
+
+
+[Singleton](https://drive.google.com/file/d/1FAOxV1BouHRgWNHyYu3o4kwVSGTVHf3t/view?usp=sharing)
 
 
 ![Singleton](https://github.com/user-attachments/assets/f7ab52b7-abc8-4878-95c8-db3d680777fd)
