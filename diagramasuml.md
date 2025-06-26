@@ -9,4 +9,4 @@
 
 *   [Diagramas de Secuencias](diagramas_de_secuencias.md)
 
-* [Diagrama de Clases](https://drive.google.com/file/d/16xPdozVbw7241BGHbfzkDhTwsAU4eAYJ/view?usp=sharing) 
+* [Diagrama de Clases](https://drive.google.com/file/d/10vrPryA6Za3yyEBxLM8I6_cHeOIMNuuI/view?usp=sharing) 
