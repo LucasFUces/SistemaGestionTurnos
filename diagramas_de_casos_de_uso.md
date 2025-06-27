@@ -18,10 +18,11 @@
 
 
 
-*  [Caso de Uso 3 - Solicitud de Turno]()
+*  [Caso de Uso 3 - Solicitud de Turno](https://drive.google.com/file/d/18Rvp-czwUWVrgyL_PAPH5ueyU8aKRDyy/view?usp=sharing)
 
 
-  ![Solicitar turno](https://github.com/user-attachments/assets/e2a9ac2f-ec18-4072-a3c5-f81402550634)
+  ![Solicitar turno](https://github.com/user-attachments/assets/236ad4d6-6126-444b-809c-ce7c4cd11e66)
+
 
 
 
