@@ -1,11 +1,12 @@
 ## Diagramas de Casos de Uso
 
 
-*  [Caso de Uso 1 - Registrar Paciente](https://drive.google.com/file/d/1xMR3ZO4J7vft2JmovaoNcGsn0Gr5UX_L/view?usp=sharing)
+*  [Caso de Uso 1 - Registrar Paciente](https://drive.google.com/file/d/1dVsoqZPSCDcXq4tzaN7xlAKfZkR4ATTr/view?usp=sharing)
 
   
   
-![REGISTRAR PACIENTE](https://github.com/user-attachments/assets/c456f730-5ecf-456a-930b-94ed6b06feeb)
+![REGISTRAR PACIENTE](https://github.com/user-attachments/assets/9f8aaed7-d08f-4d13-b848-45c76a5614c9)
+
 
 
 
