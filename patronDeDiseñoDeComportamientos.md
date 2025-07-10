@@ -13,9 +13,8 @@ De este modo, el sistema se vuelve más modular, reutilizable y fácil de extend
 
 ## Estructura de Clases
 
-![Command](https://github.com/user-attachments/assets/9d2e6b40-117d-4ca5-a53d-78cfebe4bca4)
+[Command](https://drive.google.com/file/d/1wO6bj-j1hU6TdC9oG2gIHX9sZ74488tE/view?usp=sharing)
 
-
-[Command](https://drive.google.com/file/d/1gZ6TZUsPNhVB-PLYWUq3LEY-6e8dLpeH/view?usp=sharing)
+![Command](https://github.com/user-attachments/assets/e3d2d69e-b21a-4ac0-84c4-f34f6fe0d847)
 
 
