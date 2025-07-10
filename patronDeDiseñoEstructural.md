@@ -26,7 +26,7 @@ Las entidades Paciente y Medico, que participan activamente en las operaciones c
 
 [Facade](https://drive.google.com/file/d/1f1golrWHhrFWVhS0-FOxAzdaKao8GhhR/view?usp=sharing)
 
-![Facade](https://github.com/user-attachments/assets/219e3c50-bb6a-4038-885e-c7d396d60df2")
+![Facade](https://github.com/user-attachments/assets/219e3c50-bb6a-4038-885e-c7d396d60df2)
 
 
 
