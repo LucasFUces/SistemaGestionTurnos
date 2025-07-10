@@ -8,4 +8,4 @@
 
 * [Anexo - Patron de Diseño Creacional](patronDeDiseñoCreacional.md)
 
-* [Anexo - Patron de Diseño de Comportamiento]
+* [Anexo - Patron de Diseño de Comportamiento](patronDeDiseñoDeComportamientos.md)
