@@ -6,4 +6,6 @@
 
 * [Anexo - Patron de Diseño Estructural](patronDeDiseñoEstructural.md)
 
-* [Anexo - Patron de Diseño Creacional](
+* [Anexo - Patron de Diseño Creacional](patronDeDiseñoCreacional.md)
+
+* [Anexo - Patron de Diseño de Comportamiento]
