@@ -15,7 +15,7 @@ De este modo, el sistema se vuelve más modular, reutilizable y fácil de extend
 
 [Command](https://drive.google.com/file/d/1wO6bj-j1hU6TdC9oG2gIHX9sZ74488tE/view?usp=sharing)
 
-![Command](https://github.com/user-attachments/assets/4152532b-c7a5-4d80-a914-c1489397d5c4)
+![Command](https://github.com/user-attachments/assets/38a2a102-f07e-4658-8c2f-27d4d6d4207a)
 
 
 
