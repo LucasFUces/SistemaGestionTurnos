@@ -21,11 +21,12 @@ gestorTurno: Otro subsistema que se ocupa de la creación y administración de t
 
 Las entidades Paciente y Medico, que participan activamente en las operaciones coordinadas por los subsistemas.
 
+
 ## Estructura de Clases
 
 [Facade](https://drive.google.com/file/d/1f1golrWHhrFWVhS0-FOxAzdaKao8GhhR/view?usp=sharing)
 
-![Facade](
+![Facade](https://github.com/user-attachments/assets/219e3c50-bb6a-4038-885e-c7d396d60df2")
 
 
 
