@@ -1,6 +1,6 @@
 # Diagramas de Actividades
 
-+ Diagrama de Actividad  1 - [Registrar Paciente](https://drive.google.com/file/d/1xMR3ZO4J7vft2JmovaoNcGsn0Gr5UX_L/view?usp=sharing)
++ Diagrama de Actividad  1 - [Registrar Paciente](https://drive.google.com/file/d/1QMJJQXXbXwm8bCiJxShpTE6sbe3O_2bN/view?usp=sharing)
 
 + Diagrama de Actividad  2 - [Consultar Turno](https://drive.google.com/file/d/1KGylg3CR_qyEIJQACq2z9110KN510OtM/view?usp=sharing)
 
