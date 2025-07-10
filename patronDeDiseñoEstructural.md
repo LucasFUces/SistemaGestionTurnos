@@ -24,5 +24,6 @@ Las entidades Paciente y Medico, que participan activamente en las operaciones c
 ## Estructura de Clases
 
 [Facade](https://drive.google.com/file/d/1f1golrWHhrFWVhS0-FOxAzdaKao8GhhR/view?usp=sharing)
-![Facade](<img width="440" height="650" alt="diagramadeclasesfacade" src="https://github.com/user-attachments/assets/bdd1f342-26b5-40e6-87b6-1736ea98df04" />)
+![Facade](https://github.com/user-attachments)
+
 
