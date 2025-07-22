@@ -17,7 +17,7 @@ Por ejemplo, el sistema puede decidir si crear un Medico o un Paciente según el
 
 
 
-# Ejemplo en codigo 
+# Ejemplo codigo 
  
 
 public class Persona {
