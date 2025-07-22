@@ -16,19 +16,6 @@ Por lo tanto, si este principio se respeta, cada subclase implementa únicamente
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
 # Ejemplo CODIGO
 
 class Persona {
