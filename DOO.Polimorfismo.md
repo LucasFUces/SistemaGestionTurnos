@@ -9,9 +9,9 @@ Por lo tanto, si este principio se respeta, cada subclase implementa únicamente
 
 # Ejemplo del Proyecto 
 
-* [Diagrama de Clases](https://drive.google.com/file/d/10vrPryA6Za3yyEBxLM8I6_cHeOIMNuuI/view?usp=sharing)
+* [Polimorfismo](https://drive.google.com/file/d/1pEgJMDhQB8PJhytlgOwEFiEF_Cae_2Tu/view?usp=sharing)
 
-  ![Polimorfismo](https://github.com/user-attachments/assets/371d0ffe-ccaf-432a-9b8a-a990a49bc649)
+  ![Polimorfismo](https://github.com/user-attachments/assets/c85e6e19-d355-4220-99a7-f9ccdcaf95b1)
 
 
 
