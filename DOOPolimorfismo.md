@@ -7,7 +7,7 @@ Además, fomenta el uso de interfaces o clases base que definen contratos comune
 El polimorfismo también se puede relacionar con el Principio de Segregación de Interfaces, ya que este establece que las clases no deben estar obligadas a implementar métodos que no utilizan. 
 Por lo tanto, si este principio se respeta, cada subclase implementa únicamente los métodos que le corresponden, y el código puede hacer uso del polimorfismo para invocar métodos comunes —como por ejemplo getDatos()—, obteniendo una respuesta diferente según la implementación específica de cada clase.
 
-# Ejemplo del Proyecto 
+# Ejemplo sobre el Proyecto 
 
 * [Polimorfismo](https://drive.google.com/file/d/1pEgJMDhQB8PJhytlgOwEFiEF_Cae_2Tu/view?usp=sharing)
 
