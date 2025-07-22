@@ -22,7 +22,7 @@ Esto garantiza la protección del estado interno del objeto, facilita el manteni
 
 public class Paciente {
     private String nombre;
-    private String estadoTurno; // puede ser "Confirmado", "Pendiente", "Cancelado"
+    private String estadoTurno;
     private String fechaTurno;
     private String horaTurno;
 
@@ -39,7 +39,7 @@ public class Paciente {
     }
 
     // Otros métodos internos o privados podrían gestionar cambios
-    private void modificarFecha(String nuevaFecha) {
+    private void modificarFecha(String nuevaFecha) { 
         this.fechaTurno = nuevaFecha;
     }
 }
