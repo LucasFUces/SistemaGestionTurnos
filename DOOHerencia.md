@@ -20,8 +20,6 @@ Por ejemplo, el sistema puede decidir si crear un Medico o un Paciente según el
 # Ejemplo en codigo 
  
 
-Copiar
-Editar
 public class Persona {
     String nombre;
 }
@@ -33,4 +31,7 @@ public class Paciente extends Persona {
 public class Medico extends Persona {
     int matricula;
 }
+
+
+
 Tanto Paciente como Medico heredan de la clase Persona, lo que significa que ambas disponen del atributo nombre sin necesidad de declararlo nuevamente. Cada una agrega su propio atributo distintivo —como dni en Paciente y matricula en Medico— demostrando cómo la herencia permite reutilizar código común y al mismo tiempo añadir características específicas según el tipo de objeto.
