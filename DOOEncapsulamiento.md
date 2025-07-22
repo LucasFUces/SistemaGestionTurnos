@@ -5,3 +5,5 @@ Su importancia en el diseño radica en que resguarda la integridad de los datos 
 Este principio se vincula con el Principio de Abierto/Cerrado, ya que al ocultar la lógica interna de una clase se puede extender su funcionalidad sin modificar su estructura original. En cuanto a los patrones de diseño, se relaciona con el patrón de comportamiento Observer, ya que este patrón expone únicamente interfaces públicas para que los objetos interactúen, manteniendo oculta la lógica interna y garantizando la integridad del sistema.
 
 
+# Ejemplo sobre el proyecto 
+
