@@ -11,7 +11,8 @@ Por lo tanto, si este principio se respeta, cada subclase implementa únicamente
 
 * [Diagrama de Clases](https://drive.google.com/file/d/10vrPryA6Za3yyEBxLM8I6_cHeOIMNuuI/view?usp=sharing)
 
-  
+  ![Polimorfismo](https://github.com/user-attachments/assets/371d0ffe-ccaf-432a-9b8a-a990a49bc649)
+
 
 
 
