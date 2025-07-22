@@ -11,3 +11,6 @@ Por ejemplo, el sistema puede decidir si crear un Medico o un Paciente según el
 
 # Ejemplo sobre el proyecto
 
+* [Herencia](https://drive.google.com/file/d/1pEgJMDhQB8PJhytlgOwEFiEF_Cae_2Tu/view?usp=sharing)
+
+  ![Herencia](https://github.com/user-attachments/assets/c85e6e19-d355-4220-99a7-f9ccdcaf95b1)
