@@ -16,7 +16,7 @@ Por lo tanto, si este principio se respeta, cada subclase implementa únicamente
 
 
 
-# Ejemplo CODIGO
+# Ejemplo codigo 
 
 class Persona {
     String solicitarRegistrarse() {
