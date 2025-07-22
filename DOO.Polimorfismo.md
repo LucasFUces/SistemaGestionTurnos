@@ -9,3 +9,43 @@ Por lo tanto, si este principio se respeta, cada subclase implementa únicamente
 
 # Ejemplo del Proyecto 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+# Ejemplo CODIGO
+
+class Persona {
+    String solicitarRegistrarse() {
+        return "Registro genérico";
+    }
+}
+
+class Medico extends Persona {
+    String solicitarRegistrarse() {
+        return "Registro médico";
+    }
+}
+
+class Paciente extends Persona {
+    String solicitarRegistrarse() {
+        return "Registro paciente";
+    }
+}
+
+El diagrama representa el polimorfismo a través de la jerarquía de herencia entre la superclase Persona y las subclases Médico y Paciente. Ambas clases comparten atributos y métodos comunes definidos en Persona, pero cada una puede implementar o redefinir dichos métodos según sus necesidades específicas.
+
+Por ejemplo, el método solicitarRegistrarse() está definido en la clase Persona, pero puede ser implementado de manera distinta en Médico y Paciente para adaptarse al comportamiento particular de cada uno.
